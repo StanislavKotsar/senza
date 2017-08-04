@@ -1,0 +1,41 @@
+<ScrollView style="margin-top: -64">
+    <ActionBar>
+        <NavigationButton></NavigationButton>
+    </ActionBar>
+    <StackLayout>
+          <Image src="res://pizza_back"></Image>
+                <AbsoluteLayout style="margin-top: -75" class="absol">
+                <StackLayout  class="white">
+                    <Image src="res://pizza_logo" class="pizza_logo"></Image>
+                    <Border borderRadius="0" #white borderWidth="0.1" borderColor="#afafaf">
+                    </Border>
+                    <Label text="Na Pizz, Riccone" class="name"></Label>
+                </StackLayout>
+                <Image src="res://App_shadow" top="3" left="-15" class="shadow"></Image>
+                </AbsoluteLayout>
+            <Image scr="res://App_shadow" class="second"></Image>
+            <WrapLayout class="wrap">
+                <Label text="REWARDS" class="test long"></Label>
+                <Label text="MENU" class="test"></Label>
+                <Label text="BASKET" class="test"></Label>
+                <Label text="INFO" class="test"></Label>
+            </WrapLayout>
+            <StackLayout class="points">
+            <WrapLayout class="points_wrap">
+                <StackLayout class="points_1">
+                    <Image src="res://pizza_logo" class="points_logo"></Image>
+                    <Label text="POINTS" class="points_sign"></Label>
+                </StackLayout>
+                <StackLayout class="points_2">
+                    <Label text="You have earned" class="points_desc"></Label>
+                    <Label text="1,250 POINTS" class="points_desc bold"></Label>
+                    <Label text="with value of" class="points_desc"></Label>
+                    <Label text="€12" class="points_desc bold"></Label>
+                </StackLayout>
+            </WrapLayout>
+            </StackLayout>
+        <Image src="res://shadow2" stretch="fill" class="shadow2"></Image>
+        <Image src="res://cake" class="cake_img"></Image>
+    </StackLayout>
+
+</ScrollView>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/background.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-mdpi/background.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/logo.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/cafe.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-mdpi/cafe.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/pizza.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-mdpi/pizza.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/loading_background.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-mdpi/loading_background.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/icon.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-mdpi/icon.png"
+    }
+]

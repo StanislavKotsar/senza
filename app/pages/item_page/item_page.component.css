@@ -1,0 +1,111 @@
+
+.shadow{
+    z-index: 0;
+    width: 110%;
+}
+
+.white{
+    background-color: white;
+    margin: 0 auto;
+    padding: 10 0;
+    z-index: 1;
+     width: 100%;
+}
+
+.pizza_logo{
+    width: 32%;
+    margin-bottom: 4;
+}
+
+.name{
+    text-align: center;
+    font-weight: 700;
+    padding: 8% 0;
+}
+
+.wrap{
+    width: 85%; 
+    margin: 0 auto;
+    margin-top: 10;
+    margin-bottom: 23;
+    padding: 0 auto;
+}
+
+.test{
+    width: 23%;
+    font-size: 14;
+    font-weight: 700;
+    text-align: center;
+}
+
+.long{
+    width: 31%;
+}
+
+.foo{
+    text-align: center;
+}
+
+.absol{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.points{
+    width: 94.4%;
+    margin: 0 auto;
+    background-color: white;
+    z-index: 1;
+    padding: 13% 3;
+}
+
+.points_1{
+    width: 37%;
+    margin: 0 auto;
+}
+
+.points_logo{
+    margin-left: 12;
+    width: 100%;
+    
+}
+
+.points_sign{
+    text-align: center;
+     transform: rotate(-7.2deg);
+     font-size: 23;
+     margin-left: 10;
+     margin-top: -7;
+}
+
+.points_desc{
+    text-align: center;
+    margin-left: 5;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 27;
+}
+.points_2{
+    margin: 0 auto;
+    width: 63%;
+}
+.points_wrap{
+    width: 95%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+
+
+.shadow2{
+    margin-top: -148;
+    height: 160;
+    padding: 0;
+    z-index: 0;
+}
+
+.cake_img{
+    margin-top: 15;
+}

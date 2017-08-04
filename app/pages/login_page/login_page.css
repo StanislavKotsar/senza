@@ -1,0 +1,54 @@
+Image {
+  width: 28%;
+  margin-top: 5.3%;
+}
+
+TextField{
+  width: 85.5%;
+  padding: 1.6% 0;
+}
+
+Label{
+  margin-left: 9.4%;
+}
+
+Button{
+  background-color: #1d5823;
+  margin-top: 5;
+  margin-bottom: 5;
+  width: 85.5%;
+  color: #f3f3f3;
+  height: 8.6%;
+  font-weight: 700;
+}
+
+.email_label{
+  margin-top: 8.1%;
+}
+
+.password_label{
+  margin-top: 6.6%;
+}
+
+.login_btn{
+  margin-top: 12.1%;
+}
+
+.register_btn{
+  margin-top: 3.3%;
+  background-color: #999999;
+}
+
+.forgot, .continue{
+  font-size: 9;
+  width: 50%;
+}
+.continue{
+  float: right;
+  margin-left: 0;
+}
+.forgot{
+  float: left;
+  text-align: right;
+}
+

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/icon.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/background.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/logo.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/cafe.png",
+        "source": "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/android/src/main/res/drawable-hdpi/cafe.png"
+    }
+]
