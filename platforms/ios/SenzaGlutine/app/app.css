@@ -15,3 +15,31 @@ refer to http://docs.nativescript.org/ui/theme.
 .font-awesome {
     font-family: "FontAwesome", fontawesome-webfont;;
 }
+
+.Roboto{
+    font-family: "Roboto";
+    
+}
+.Roboto-Light-webfont{
+    font-family: "Roboto-Light-webfont";
+}
+
+
+.Pacifico{
+    font-family: "Pacifico";
+}
+
+.Roboto-Regular{
+    font-family: "Roboto-Regular";
+}
+
+.Lato-Black{
+    font-family: "Lato-Black";
+}
+.Lato-Light{
+    font-family: "Lato-Light";
+}
+
+.Lato-Regular{
+    font-family: "Lato-Regular";
+}

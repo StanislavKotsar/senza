@@ -43,16 +43,18 @@
       <string>UIInterfaceOrientationLandscapeLeft</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
+    <key>CFBundleIdentifier</key>
+    <string>org.nativescript.SenzaGlutine</string>
     <key>CFBundleURLTypes</key>
     <array>
       <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
         <key>CFBundleURLSchemes</key>
         <array>
           <string>orgnativescriptSenzaGlutine</string>
         </array>
       </dict>
     </array>
-    <key>CFBundleIdentifier</key>
-    <string>org.nativescript.SenzaGlutine</string>
   </dict>
 </plist>

@@ -15,6 +15,7 @@ export class LoginComponent implements OnInit {
     ngOnInit(){
       this.page.actionBarHidden = true;
       let passwordTextfield =  <TextField> this.page.getViewById("tpassword");
+      console.log(passwordTextfield);
       passwordTextfield.borderBottomWidth= 1;
       passwordTextfield.borderBottomColor= new Color("#434343");
       let emailTextfield =  <TextField> this.page.getViewById("temail");

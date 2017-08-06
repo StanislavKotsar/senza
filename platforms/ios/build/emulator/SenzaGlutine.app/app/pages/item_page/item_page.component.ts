@@ -3,11 +3,16 @@ import { Page } from "ui/page";
 import { Color } from "color";
 import { topmost,Frame } from "ui/frame";
 import { View } from "ui/core/view";
+import * as platformModule from "tns-core-modules/platform";
+import { DockLayout } from "ui/layouts/dock-layout";
+import * as listPickerModule from "tns-core-modules/ui/list-picker";
 
 declare var UIImage: any;
 declare var UIBarMetrics: any;
 declare var controller: any;
 declare var CGSizeMake: any;
+declare var	UIColor: any;
+
 @Component({
 	selector: 'item_page',
 	templateUrl: 'pages/item_page/item_page.component.html',
@@ -15,17 +20,39 @@ declare var CGSizeMake: any;
 })
 
 export class Item_pageComponent implements OnInit {
-	@ViewChild("white")white: ElementRef;
-	@ViewChild("navBtn")navBtn:ElementRef;
+	@ViewChild("ordertype") ordertype: ElementRef;
+	show: string = 'rewards';
+	starters:[{}];
+	main:[{}];
+	orederList;
+	screen = {	
+		width:0,
+		height:0,
+		heightPercent:''
+	}
+	startOrder = false;
+	select = 0;
+	selectedOrder = "Order Table";
 	constructor(private page: Page, private frame: Frame) { }
 
-	ngOnInit() { 
-		let white = <View>this.white.nativeElement;
-		white.ios.layer.masksToBounds = false;
-		white.ios.layer.shadowOpacity = 1.0;
-		white.ios.layer.shadowRadius = 1.0;
-		white.ios.layer.shadowColor = new Color('#000000').ios.CGColor;
-		white.ios.layer.shadowOffset = CGSizeMake(2.0, 2.0);
+	ngOnInit() {
+		
+		this.orederList = ["Order for collection", "Order at table", "Order for delivery"];
+		console.log(this.page.getViewById("wrap"));
+		console.log("Device model: " + platformModule.screen.mainScreen.widthPixels);
+		this.screen.width = platformModule.screen.mainScreen.widthPixels;
+		this.screen.height = platformModule.screen.mainScreen.heightPixels;
+		this.screen.heightPercent = (Number(platformModule.screen.mainScreen.heightPixels)/100).toFixed(1);
+		console.log("Device model: " + this.screen.width);
+		console.log("Device height: " + this.screen.height);
+		console.log("Percent: " + this.screen.heightPercent);
+
+		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'},
+			{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
+		];
+		this.main = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
+		];
+		this.page.actionBar.navigationButton.style.color = new Color('#000000');
 		if (topmost().ios) {
 			var navigationBar = topmost().ios.controller.navigationBar;
 			navigationBar.setBackgroundImageForBarMetrics(UIImage.new(), UIBarMetrics.UIBarMetricsDefault);
@@ -33,4 +60,34 @@ export class Item_pageComponent implements OnInit {
     }
 
 	 }
+	 getView(){
+		this.startOrder = true;
+		let wrap = this;
+		setTimeout(function(){
+			let orderType = <DockLayout>wrap.page.getViewById("order");
+			console.log(orderType, " Oreder");
+			orderType.borderBottomWidth= 1;
+      		orderType.borderBottomColor= new Color("#434343");
+		},0);
+	 }
+	 selectedIndexChanged(picker) {
+        console.log('picker selection: ' + picker.selectedIndex);
+	}
+	
+	selectOrder(picker){
+		console.log(picker.selectedIndex);
+		picker.selectedIndex === undefined ? picker.selectedIndex = 0 : ''
+		this.selectedOrder = this.orederList[picker.selectedIndex] || "Please select an order type";
+		this.select++;
+		let wrap = this;
+		this.selectedOrder = this.orederList[picker.selectedIndex];
+				setTimeout(function(){
+			let orderType = <DockLayout>wrap.page.getViewById("table");
+			console.log(orderType, " Oreder");
+			orderType.borderBottomWidth= 1;
+      		orderType.borderBottomColor= new Color("#434343");
+		},0);
+	}
+
+
 }

@@ -1,41 +1,81 @@
 <ScrollView style="margin-top: -64">
     <ActionBar>
-        <NavigationButton color="white"></NavigationButton>
+        <NavigationButton></NavigationButton>
     </ActionBar>
     <StackLayout>
-          <Image src="res://pizza_back"></Image>
-                <AbsoluteLayout style="margin-top: -75" class="absol">
-                <StackLayout  class="white">
-                    <Image src="res://pizza_logo" class="pizza_logo"></Image>
-                    <Border borderRadius="0" #white borderWidth="0.1" borderColor="#afafaf">
-                    </Border>
-                    <Label text="Na Pizz, Riccone" class="name"></Label>
-                </StackLayout>
-                <Image src="res://App_shadow" top="3" left="-15" class="shadow"></Image>
-                </AbsoluteLayout>
-            <Image scr="res://App_shadow" class="second"></Image>
-            <WrapLayout class="wrap">
-                <Label text="REWARDS" class="test long"></Label>
-                <Label text="MENU" class="test"></Label>
+        <StackLayout>
+          <Image src="res://pizza_back" id="img"></Image>
+            <Image src="res://App_shadow" stretch="fill" class="shadow" *ngIf="startOrder === false"></Image>
+            <StackLayout  class="white" *ngIf="startOrder === false" >
+                <Image src="res://pizza_logo" class="pizza_logo"></Image>
+                <Border borderRadius="0" #white borderWidth="0.1" borderColor="#afafaf">
+                </Border>
+                <Label text="Na Pizz, Riccone" class="name"></Label>
+            </StackLayout>
+            <WrapLayout class="wrap" id="wrap">
+                <Label text="REWARDS" (tap)="show= 'rewards'" class="test long"></Label>
+                <Label text="MENU" (tap)="show= 'menu'" class="test"></Label>
                 <Label text="BASKET" class="test"></Label>
                 <Label text="INFO" class="test"></Label>
             </WrapLayout>
-            <StackLayout class="points">
-            <WrapLayout class="points_wrap">
-                <StackLayout class="points_1">
-                    <Image src="res://pizza_logo" class="points_logo"></Image>
-                    <Label text="POINTS" class="points_sign"></Label>
-                </StackLayout>
-                <StackLayout class="points_2">
-                    <Label text="You have earned" class="points_desc"></Label>
-                    <Label text="1,250 POINTS" class="points_desc bold"></Label>
-                    <Label text="with value of" class="points_desc"></Label>
-                    <Label text="€12" class="points_desc bold"></Label>
-                </StackLayout>
-            </WrapLayout>
+            <StackLayout *ngIf="show === 'rewards'" class="points">
+                <WrapLayout class="points_wrap">
+                    <StackLayout class="points_1">
+                        <Image src="res://pizza_logo" class="points_logo"></Image>
+                        <Label text="POINTS" class="points_sign"></Label>
+                    </StackLayout>
+                    <StackLayout class="points_2">
+                        <Label text="You have earned" class="points_desc"></Label>
+                        <Label text="1,250 POINTS" class="points_desc bold"></Label>
+                        <Label text="with value of" class="points_desc"></Label>
+                        <Label text="€12" class="points_desc bold"></Label>
+                    </StackLayout>
+                </WrapLayout>
             </StackLayout>
-        <Image src="res://shadow2" stretch="fill" class="shadow2"></Image>
-        <Image src="res://cake" class="cake_img"></Image>
+            <Image  *ngIf="show === 'rewards'" src="res://shadow2" stretch="fill" class="shadow2"></Image>
+            <Image  *ngIf="show === 'rewards'" src="res://cake" class="cake_img"></Image>
+            <Label text="STARTERS" *ngIf="show === 'menu'" class="menu_header"></Label>
+            <StackLayout *ngIf="show === 'menu'" class="menu">
+                <StackLayout *ngFor="let item of starters" (tap)="getView()">
+                    <DockLayout  class="menu_item">
+                        <Label [text]="item.name" class="item_name"></Label>
+                        <Label [text]="item.price" class="item_l" fontFamily="Lato-Black"></Label>
+                    </DockLayout>
+                    <Label [text]="item.desc" class="desc"></Label>
+                </StackLayout>
+                <Label text="MAIN" *ngIf="show === 'menu'" class="menu_header"></Label>
+                <StackLayout *ngFor="let item of main" (tap)="startOrder = true">
+                    <DockLayout class="menu_item">
+                        <Label [text]="item.name" class="item_name"></Label>
+                        <Label [text]="item.price" fontFamily="Lato-Black" class="item_l"></Label>
+                    </DockLayout>
+                    <Label [text]="item.desc"  class="desc"></Label>
+                </StackLayout>
+            </StackLayout>
+            <FlexboxLayout *ngIf="startOrder === true" style="margin-top: -850px" [height]="(screen.height * 0.79)+'px'" class="order_container">
+                    <StackLayout>
+                        <Label text="START AN ORDER" class="order_picker"></Label>
+                        <Label text="Please select an order type" class="order_sign" [marginTop]="screen.heightPercent * 4 + 'px'"></Label>
+                        <DockLayout #ordertype   *ngIf="select !== 1" (tap)="select = 1" class="order_type" id = "order" [marginTop]="screen.heightPercent * 6 + 'px'">
+                            <Label [text]="selectedOrder"></Label>
+                            <Label text="&#xf0d7;" class="font-awesome"></Label>
+                        </DockLayout>
+                        <StackLayout *ngIf="select === 1" style="margin-top: -80px" class="order_list">
+                            <ListPicker #picker
+                            [selectedIndex]="selectedIndex"  
+                            (selectedIndexChange)="selectedIndexChanged(picker)"
+                            (tap)="selectOrder(picker)"
+                            [items]="orederList"
+                            ></ListPicker>
+                        </StackLayout>
+                        <DockLayout #ordertype  *ngIf="select > 1 "  (tap)="select = select+1" class="order_type" id = "table" [marginTop]="screen.heightPercent * 6 + 'px'">
+                            <Label [text]="selectedOrder"></Label>
+                            <Label text="&#xf0d7;" class="font-awesome"></Label>
+                        </DockLayout>
+                    </StackLayout>
+            </FlexboxLayout>
+                <Image src="res://big_shadow" *ngIf="startOrder === true" width="100%" [height]="(screen.height * 0.79)+20+'px'"  [marginTop]="-(screen.height * 0.79-10)+'px'"></Image>
+        </StackLayout>
     </StackLayout>
 
 </ScrollView>

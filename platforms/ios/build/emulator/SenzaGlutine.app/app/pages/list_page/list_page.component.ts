@@ -25,8 +25,8 @@ export class ListComponent implements OnInit{
     this.page.actionBar.navigationButton.visibility = "collapse";
     if (topmost().ios) {
       var navigationBar = topmost().ios.controller.navigationBar;
-      navigationBar.setBackgroundImageForBarMetrics(UIImage.new(), UIBarMetrics.UIBarMetricsDefault);
-      navigationBar.shadowImage = UIImage.new();
+			navigationBar.setBackgroundImageForBarMetrics(UIImage.new(), UIBarMetrics.UIBarMetricsDefault);
+			navigationBar.shadowImage = UIImage.new();
     }
   }
   nextPage(){

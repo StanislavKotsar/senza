@@ -14,11 +14,7 @@ const routes: Routes = [
     { path: 'loading', component: LoadingPage },
     { path: 'login', component: LoginComponent },
     { path: 'list', component: ListComponent },
-    { path: 'item', component: Item_pageComponent },
-
-
-    { path: "items", component: ItemsComponent },
-    { path: "item/:id", component: ItemDetailComponent },
+    { path: 'item', component: Item_pageComponent }
 ];
 
 @NgModule({
