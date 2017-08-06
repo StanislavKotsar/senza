@@ -89,5 +89,10 @@ export class Item_pageComponent implements OnInit {
 		},0);
 	}
 
+	foo(){
+		this.select++;
+		console.log(this.select++)
+	}
+
 
 }

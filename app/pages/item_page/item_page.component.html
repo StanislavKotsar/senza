@@ -52,7 +52,8 @@
                     <Label [text]="item.desc"  class="desc"></Label>
                 </StackLayout>
             </StackLayout>
-            <FlexboxLayout *ngIf="startOrder === true" style="margin-top: -850px" [height]="(screen.height * 0.79)+'px'" class="order_container">
+            <Image src="res://big_shadow" *ngIf="startOrder === true" width="100%" [height]="(screen.height * 0.79)+70+'px'"  [marginTop]="-(screen.height * 0.79-10)+'px'"></Image>
+            <FlexboxLayout *ngIf="startOrder === true" style="margin-top: -950px" [height]="(screen.height * 0.79)+'px'" class="order_container">
                     <StackLayout>
                         <Label text="START AN ORDER" class="order_picker"></Label>
                         <Label text="Please select an order type" class="order_sign" [marginTop]="screen.heightPercent * 4 + 'px'"></Label>
@@ -73,8 +74,10 @@
                             <Label text="&#xf0d7;" class="font-awesome"></Label>
                         </DockLayout>
                     </StackLayout>
+                    <StackLayout class="wrap_btn">
+                        <Button text="START ORDER" class="add_order" [height]="(screen.height * 0.085)+'px'"></Button>
+                    </StackLayout>
             </FlexboxLayout>
-                <Image src="res://big_shadow" *ngIf="startOrder === true" width="100%" [height]="(screen.height * 0.79)+20+'px'"  [marginTop]="-(screen.height * 0.79-10)+'px'"></Image>
         </StackLayout>
     </StackLayout>
 
