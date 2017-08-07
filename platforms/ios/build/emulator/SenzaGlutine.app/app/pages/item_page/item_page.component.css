@@ -184,5 +184,21 @@ ScrollView{
 }
 
 .order_list{
-    background-color: gold;
+    z-index: 9;
+}
+
+.add_order{
+    background-color: #1d5823;
+    margin-top: 5;
+    margin-bottom: 5;
+    width: 92%;
+    color: #f3f3f3;
+    height: 8.6%;
+    
+}
+
+.wrap_btn{
+    width: 92%;
+     font-family: "Lato-Black";
+     font-size: 20;
 }

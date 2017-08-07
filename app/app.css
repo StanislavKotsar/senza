@@ -16,21 +16,9 @@ refer to http://docs.nativescript.org/ui/theme.
     font-family: "FontAwesome", fontawesome-webfont;;
 }
 
-.Roboto{
-    font-family: "Roboto";
-    
-}
-.Roboto-Light-webfont{
-    font-family: "Roboto-Light-webfont";
-}
-
 
 .Pacifico{
     font-family: "Pacifico";
-}
-
-.Roboto-Regular{
-    font-family: "Roboto-Regular";
 }
 
 .Lato-Black{
@@ -42,4 +30,8 @@ refer to http://docs.nativescript.org/ui/theme.
 
 .Lato-Regular{
     font-family: "Lato-Regular";
+}
+
+.Lato-Bold{
+    font-family: "Lato-Bold";
 }

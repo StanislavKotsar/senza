@@ -11,6 +11,7 @@ import { LoadingPage } from "./pages/loading_page/loading_page.component";
 import { ListComponent } from "./pages/list_page/list_page.component";
 import { Item_pageComponent } from "./pages/item_page/item_page.component";
 
+
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
 

@@ -28,7 +28,7 @@ export class Item_pageComponent implements OnInit {
 	screen = {	
 		width:0,
 		height:0,
-		heightPercent:''
+		heightPercent: ''
 	}
 	startOrder = false;
 	select = 0;
@@ -42,12 +42,14 @@ export class Item_pageComponent implements OnInit {
 		console.log("Device model: " + platformModule.screen.mainScreen.widthPixels);
 		this.screen.width = platformModule.screen.mainScreen.widthPixels;
 		this.screen.height = platformModule.screen.mainScreen.heightPixels;
-		this.screen.heightPercent = (Number(platformModule.screen.mainScreen.heightPixels)/100).toFixed(1);
+		this.screen.heightPercent = (platformModule.screen.mainScreen.heightPixels/100).toFixed(1);
 		console.log("Device model: " + this.screen.width);
 		console.log("Device height: " + this.screen.height);
 		console.log("Percent: " + this.screen.heightPercent);
 
-		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'},
+		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here', extras:[
+			"Extra cheese", "Extra tomato", "Add bacon", "Add ham", "Add egg"
+		]},
 			{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
 		];
 		this.main = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
@@ -62,16 +64,20 @@ export class Item_pageComponent implements OnInit {
 	 }
 	 getView(){
 		this.startOrder = true;
-		let wrap = this;
-		setTimeout(function(){
-			let orderType = <DockLayout>wrap.page.getViewById("order");
-			console.log(orderType, " Oreder");
-			orderType.borderBottomWidth= 1;
-      		orderType.borderBottomColor= new Color("#434343");
-		},0);
+		this.addBottomBorder("order");
 	 }
 	 selectedIndexChanged(picker) {
         console.log('picker selection: ' + picker.selectedIndex);
+	}
+
+	addBottomBorder (id) {
+		let wrap = this;
+		setTimeout(function(){
+			let orderType = <DockLayout>wrap.page.getViewById(id);
+			console.log(orderType, " Oreder");
+			orderType.borderBottomWidth= 1;
+			orderType.borderBottomColor= new Color("#434343");
+	},0);
 	}
 	
 	selectOrder(picker){
@@ -79,14 +85,9 @@ export class Item_pageComponent implements OnInit {
 		picker.selectedIndex === undefined ? picker.selectedIndex = 0 : ''
 		this.selectedOrder = this.orederList[picker.selectedIndex] || "Please select an order type";
 		this.select++;
-		let wrap = this;
 		this.selectedOrder = this.orederList[picker.selectedIndex];
-				setTimeout(function(){
-			let orderType = <DockLayout>wrap.page.getViewById("table");
-			console.log(orderType, " Oreder");
-			orderType.borderBottomWidth= 1;
-      		orderType.borderBottomColor= new Color("#434343");
-		},0);
+			this.addBottomBorder("order");
+			this.addBottomBorder("table");
 	}
 
 	foo(){

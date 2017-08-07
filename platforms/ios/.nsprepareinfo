@@ -1,9 +1,9 @@
 {
-	"time": "Sun Aug 06 2017 23:22:15 GMT+0300 (MSK)",
+	"time": "Mon Aug 07 2017 23:20:52 GMT+0300 (MSK)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": false,
-	"projectFileHash": "30a3ea4eacd3e2e713b4614144e4d7a8c5dd2819ad8f600ac8eec66dd8692922",
-	"changesRequireBuildTime": "Sun Aug 06 2017 22:11:36 GMT+0300 (MSK)"
+	"projectFileHash": "9ad3a1024cc85faef0394d5abd75546fdf6abb4ed436a35cbf619406c28cc972",
+	"changesRequireBuildTime": "Mon Aug 07 2017 10:08:58 GMT+0300 (MSK)"
 }

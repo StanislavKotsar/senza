@@ -13,11 +13,13 @@ ScrollView{
     background-color: white;
     margin: 0 auto;
     padding: 10 0;
-    z-index: 1;
     width: 90%;
     margin: 0 auto;
-    z-index: 1;
-    margin-top: -155;
+   
+}
+#whiteWrap{
+     margin-top: -145px;
+      z-index: 3;
 }
 
 .pizza_logo{
@@ -89,7 +91,7 @@ ScrollView{
 
 .bold{
     font-weight: 700;
-    font-size: 27;
+    font-size: 23px;
 }
 .points_2{
     margin: 0 auto;
@@ -194,9 +196,33 @@ ScrollView{
     width: 92%;
     color: #f3f3f3;
     height: 8.6%;
-    font-weight: 700;
+    
 }
 
 .wrap_btn{
     width: 92%;
+     font-family: "Lato-Black";
+     font-size: 20;
+}
+
+.whiteCard{
+    background-color: white;
+    width: 90%;
+    z-index: 3;
+}
+.order_name{
+    text-align: center;
+    color: black;
+}
+.order_desc{
+    color: #434343;
+    text-align: center;
+    font-size: 15;
+}
+
+
+.order_extra{
+    background-color: #eeeeee;
+    color: #666666;
+    padding: 10;
 }

@@ -194,7 +194,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		qbfFq+bPFkkjb7TdwiDUYPnoTdQ=
+		VXJITcSPkUIvNBVoZO+BvdQ3J18=
 		</data>
 		<key>app/app.module.js</key>
 		<data>
@@ -215,6 +215,10 @@
 		<key>app/fonts/Lato-Black.ttf</key>
 		<data>
 		uclSY5dB9bdHnh/20VYaPffo+Do=
+		</data>
+		<key>app/fonts/Lato-Bold.ttf</key>
+		<data>
+		ayx7Eky/Cq66SNV/sPoZ8sbGloM=
 		</data>
 		<key>app/fonts/Lato-Light.ttf</key>
 		<data>
@@ -286,11 +290,11 @@
 		</data>
 		<key>app/main.js</key>
 		<data>
-		m6oZtr+enCoRJVMevKzaTOj27W0=
+		PVhF0LeU+POvuX5PSQxHsN3hwiY=
 		</data>
 		<key>app/main.ts</key>
 		<data>
-		httvCFDgfGYeVdXySOuTaEX+pXA=
+		lOKXzIw/bCqwAPWGzXXMFJtzFh0=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -298,19 +302,19 @@
 		</data>
 		<key>app/pages/item_page/item_page.component.css</key>
 		<data>
-		pHw26WKHBotV57hipJUqK95LgD4=
+		HguWfssIgefGaBwhLqwQuxwfTSg=
 		</data>
 		<key>app/pages/item_page/item_page.component.html</key>
 		<data>
-		xicH1piicwz7EXTbRbUBPZiCA/M=
+		3EkrJzGZumcz77OfgUgzhbi8mqU=
 		</data>
 		<key>app/pages/item_page/item_page.component.js</key>
 		<data>
-		vdpTxDTsm0u3T+YZSHhesIzUEAM=
+		DZGK2LX5SXZpZ6xGSQH6aKJUnUY=
 		</data>
 		<key>app/pages/item_page/item_page.component.ts</key>
 		<data>
-		LwC84upW35lr6uhLXJNUlV06bbI=
+		9QZe7/vdbjFwPvdAefGH5xi0zoo=
 		</data>
 		<key>app/pages/list_page/list.component.js</key>
 		<data>
@@ -362,7 +366,7 @@
 		</data>
 		<key>app/pages/login_page/login_page.html</key>
 		<data>
-		oby93dskwptUKgR5nS19m+Xj8go=
+		7LjQ9Lyktto415N2kRCOEM+mRqs=
 		</data>
 		<key>app/pages/login_page/login_page.js</key>
 		<data>
@@ -3919,6 +3923,34 @@
 		<key>app/tns_modules/nativescript-angular/zone-js/dist/zone-nativescript.js</key>
 		<data>
 		LsiSddAmFB3RCGybo+zx/KYLpkY=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/.npmignore</key>
+		<data>
+		6c2j1FoSMldeZe0hXaesYeuP8m8=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/LICENSE.md</key>
+		<data>
+		UQ34azyL0QWPFidZin+UfyDPw1c=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/README.md</key>
+		<data>
+		uV2w1PJVtjh2T124441bnFk9BQE=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/cardview-common.js</key>
+		<data>
+		BxV/yYjFgjoldmLJHFPHLzEu9Pk=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/cardview.js</key>
+		<data>
+		/kk8CgMISzQtS34cn/9tA87+phk=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/index.d.ts</key>
+		<data>
+		6WWayj6YjHXBSzk3hzAjSWIisE0=
+		</data>
+		<key>app/tns_modules/nativescript-cardview/package.json</key>
+		<data>
+		8rpxCOfq23lmI871l1MPHGknQ98=
 		</data>
 		<key>app/tns_modules/nativescript-intl/README.md</key>
 		<data>
@@ -12023,11 +12055,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qbfFq+bPFkkjb7TdwiDUYPnoTdQ=
+			VXJITcSPkUIvNBVoZO+BvdQ3J18=
 			</data>
 			<key>hash2</key>
 			<data>
-			NNRUi0r5ppj31Er2TYTOAvveBQ/74o7In/lJaAQhPBg=
+			S5S/f8aLEYSXJHFy36IQnMb8GWHwEEfUPihTpqelFjs=
 			</data>
 		</dict>
 		<key>app/app.module.js</key>
@@ -12083,6 +12115,17 @@
 			<key>hash2</key>
 			<data>
 			TtZvo5KK52kgVjXJFrT55qY/anf12Wk6wxqD0Nlq4e8=
+			</data>
+		</dict>
+		<key>app/fonts/Lato-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ayx7Eky/Cq66SNV/sPoZ8sbGloM=
+			</data>
+			<key>hash2</key>
+			<data>
+			vxuBMAabRLkUju7ONeVCO+2sSXd7p0ZhW4JrgnZXSns=
 			</data>
 		</dict>
 		<key>app/fonts/Lato-Light.ttf</key>
@@ -12276,22 +12319,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m6oZtr+enCoRJVMevKzaTOj27W0=
+			PVhF0LeU+POvuX5PSQxHsN3hwiY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UrSMaeoI221CTXkFrlp/4Lnm53YOXrgbumARb4t84PM=
+			5HZs06Hy0JapyFxWTuGSrbLGxLI+HA8NcmRQqxAjco8=
 			</data>
 		</dict>
 		<key>app/main.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			httvCFDgfGYeVdXySOuTaEX+pXA=
+			lOKXzIw/bCqwAPWGzXXMFJtzFh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZkZeKinyc3KSLL4pEyHjimapzLyflnJRQlysr7t8ofA=
+			JXA2qXIii8T3tKLIQky2EDtZH44TWjzKtPQKJF0m2A4=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -12309,44 +12352,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pHw26WKHBotV57hipJUqK95LgD4=
+			HguWfssIgefGaBwhLqwQuxwfTSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KzfB9x4xyR2rn2H6vgnzZSXKRRZuUFoFZHiUrvmPkA8=
+			qKmlDBM/G6QhrR6WGJZYoyaRVqKiqDp4dodlapfhyb4=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xicH1piicwz7EXTbRbUBPZiCA/M=
+			3EkrJzGZumcz77OfgUgzhbi8mqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GrltqF4qR3JYebvpvx30rDFPkCEplPlzf4i2HsvOyzY=
+			BWn0Yz6XB6Kn/t8y8paKjQK7Gh5H69jg7+atZq5FzoM=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vdpTxDTsm0u3T+YZSHhesIzUEAM=
+			DZGK2LX5SXZpZ6xGSQH6aKJUnUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			q3bdhwgi4UfojTtwJKBlLkKdKyKzQQm6rMcS3HStSTY=
+			phYR9tvK3EEG+x0xXz3zH4biZm59rxNwP/DXuUHROL4=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LwC84upW35lr6uhLXJNUlV06bbI=
+			9QZe7/vdbjFwPvdAefGH5xi0zoo=
 			</data>
 			<key>hash2</key>
 			<data>
-			MCyrlzCNnVzyGi9IstlfvnlEa2MiXVRAR9fUq3oq15o=
+			Q/DFnlEo6KiYDgQMRM0oPEiMB61vNhxdM48iAT6km2U=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list.component.js</key>
@@ -12485,11 +12528,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oby93dskwptUKgR5nS19m+Xj8go=
+			7LjQ9Lyktto415N2kRCOEM+mRqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sDC/x5h5h2fF5KRNohnqGRCs4DjrfLq17QCSM9UG+4U=
+			AlF1kkh+DrDKpFSYrG6g/8eIcIbK8WdPAipcioX8eBY=
 			</data>
 		</dict>
 		<key>app/pages/login_page/login_page.js</key>
@@ -22269,6 +22312,83 @@
 			<key>hash2</key>
 			<data>
 			liRJGHzXv51EdcPyRa3YfviYTKAIk4s9eCVLkJ5cZV0=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6c2j1FoSMldeZe0hXaesYeuP8m8=
+			</data>
+			<key>hash2</key>
+			<data>
+			9/LOf2ccG5skoNpnaJHAWJE7rQImYbKkfwGV1gC/bOU=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/LICENSE.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UQ34azyL0QWPFidZin+UfyDPw1c=
+			</data>
+			<key>hash2</key>
+			<data>
+			YYRRnsb2JcIL6BmJlXzNzw7JAZKKv9nL+B2VoXtGUTU=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uV2w1PJVtjh2T124441bnFk9BQE=
+			</data>
+			<key>hash2</key>
+			<data>
+			oSiHERbo7zTV4kUCdV/V0WAarsJJv/mLMBfZkx6Mc/s=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/cardview-common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BxV/yYjFgjoldmLJHFPHLzEu9Pk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ra0MApJ1zGHvgzolpBk3sSl0NszA2BaES3lNB12aBtE=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/cardview.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/kk8CgMISzQtS34cn/9tA87+phk=
+			</data>
+			<key>hash2</key>
+			<data>
+			k52pRKl/ll/pwSqO90TtADOwqI7durftszPjLxJEQa0=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6WWayj6YjHXBSzk3hzAjSWIisE0=
+			</data>
+			<key>hash2</key>
+			<data>
+			hH2bAXceBf9ZDzpeAjGaRhWXgNCRtgWRt2AoOPXCZwk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-cardview/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8rpxCOfq23lmI871l1MPHGknQ98=
+			</data>
+			<key>hash2</key>
+			<data>
+			F7gt4a6v0BMWXbS7N/9UEXI1ff4zJgXJxp0KyFG5NqQ=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-intl/README.md</key>
