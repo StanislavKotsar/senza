@@ -1,0 +1,9 @@
+use_frameworks!
+
+target "SenzaGlutine" do
+# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/node_modules/nativescript-checkbox/platforms/ios/Podfile 
+ pod 'BEMCheckBox', '~> 1.4.1'
+ 
+ # End Podfile 
+
+end

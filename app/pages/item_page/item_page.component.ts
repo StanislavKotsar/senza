@@ -33,6 +33,7 @@ export class Item_pageComponent implements OnInit {
 	startOrder = false;
 	select = 0;
 	selectedOrder = "Order Table";
+	selectedItem: any;
 	constructor(private page: Page, private frame: Frame) { }
 
 	ngOnInit() {
@@ -50,7 +51,9 @@ export class Item_pageComponent implements OnInit {
 		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here', extras:[
 			"Extra cheese", "Extra tomato", "Add bacon", "Add ham", "Add egg"
 		]},
-			{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
+			{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here', extras:[
+			"Extra cheese", "Extra tomato", "Add bacon", "Add ham", "Add egg"
+		]}
 		];
 		this.main = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
 		];
@@ -62,9 +65,10 @@ export class Item_pageComponent implements OnInit {
     }
 
 	 }
-	 getView(){
+	 getView(item){
 		this.startOrder = true;
 		this.addBottomBorder("order");
+		this.selectedItem = item;
 	 }
 	 selectedIndexChanged(picker) {
         console.log('picker selection: ' + picker.selectedIndex);

@@ -66,7 +66,19 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		2Q3YT6ti+SNo4BoDVHgJpo/LSi8=
+		7LOTsvsUgcERgv1InTjlYmWv/OI=
+		</data>
+		<key>Frameworks/BEMCheckBox.framework/BEMCheckBox</key>
+		<data>
+		FO+SUkSQRDN8Vogge5XKuZ1McpU=
+		</data>
+		<key>Frameworks/BEMCheckBox.framework/Info.plist</key>
+		<data>
+		/bXTE5XNAS95jLyqe+SAUwzxqmc=
+		</data>
+		<key>Frameworks/BEMCheckBox.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2PxpvYJuRnYuIJCr50Sgz5bm9DA=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -162,7 +174,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		KZM1d1TsTlEwlUrPBR+Vt12gJTQ=
+		OiORq1GSJiUOPobxEbY9rbYpVhA=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -170,7 +182,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		TH7YjL3sLzT7qlusRRbFNhCgtDg=
+		1+Qzi3EtANurh6m6gaKFKZX3aYk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -194,15 +206,15 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		VXJITcSPkUIvNBVoZO+BvdQ3J18=
+		Kk9n5ktwgqedBq2oUKEuanByvv4=
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		QPj1nviPx+f+VYV0839kp+E0XKI=
+		EV4WGQ1o4oZTYwub9FuNmzZdXP0=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		0sJMbyKsx8Rfv2RzUgR5AoCnxZk=
+		8n8QxPC9/S6+cAejjU0M2tQjLNA=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
@@ -227,6 +239,10 @@
 		<key>app/fonts/Lato-Regular.ttf</key>
 		<data>
 		9Z+eTzy+6YGl5vWKJ5+blhPyJZk=
+		</data>
+		<key>app/fonts/Lato-Semibold.ttf</key>
+		<data>
+		llaeLPzDopi7GuohED0NHjx+LtQ=
 		</data>
 		<key>app/fonts/Pacifico.ttf</key>
 		<data>
@@ -302,19 +318,19 @@
 		</data>
 		<key>app/pages/item_page/item_page.component.css</key>
 		<data>
-		HguWfssIgefGaBwhLqwQuxwfTSg=
+		VmkVovOeIiElOf34fP3SCmz8kZk=
 		</data>
 		<key>app/pages/item_page/item_page.component.html</key>
 		<data>
-		3EkrJzGZumcz77OfgUgzhbi8mqU=
+		genpeZ0FpVvPqCNbQz6/anKUkvY=
 		</data>
 		<key>app/pages/item_page/item_page.component.js</key>
 		<data>
-		DZGK2LX5SXZpZ6xGSQH6aKJUnUY=
+		95833hGL+83j0gSCiezsmJzgZKg=
 		</data>
 		<key>app/pages/item_page/item_page.component.ts</key>
 		<data>
-		9QZe7/vdbjFwPvdAefGH5xi0zoo=
+		Gf2ri0nDga+tFRcT635muEUFESc=
 		</data>
 		<key>app/pages/list_page/list.component.js</key>
 		<data>
@@ -322,19 +338,19 @@
 		</data>
 		<key>app/pages/list_page/list_page.component.js</key>
 		<data>
-		yhc0xUoa0wSEFPf7C2TkGiSOjeg=
+		1sPakebR5WSeq7ub3kJNRoWS4w4=
 		</data>
 		<key>app/pages/list_page/list_page.component.ts</key>
 		<data>
-		pEe0B+Y3iJ/Bdk0h9o3FWkJdnk8=
+		pTuHV63bpHFAnMhX4Me08Qfd+8M=
 		</data>
 		<key>app/pages/list_page/list_page.css</key>
 		<data>
-		nzRnsnJ+75QlA0msMtATyo7ffuQ=
+		rSfg76yNEv9BxyakMxcwXyXTi9I=
 		</data>
 		<key>app/pages/list_page/list_page.html</key>
 		<data>
-		hu0XmaMbTqeQ3URRnae1hn+UzE0=
+		Ut8gP2hPYa3GXn/fGfCEqkqwKtk=
 		</data>
 		<key>app/pages/loading_page/loading_page.component.js</key>
 		<data>
@@ -3951,6 +3967,38 @@
 		<key>app/tns_modules/nativescript-cardview/package.json</key>
 		<data>
 		8rpxCOfq23lmI871l1MPHGknQ98=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/BEMCheckBox.d.ts</key>
+		<data>
+		ve97SW298XIC3+PhqyQcF5Kmmgg=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/README.md</key>
+		<data>
+		pcq6rvkl3k+IGgldRZhGCDzpTEA=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/angular/index.d.ts</key>
+		<data>
+		lcbnREeBqdKaYQfvrCMd3OlKsNI=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/angular/index.js</key>
+		<data>
+		4sw0QMsjr6YdY/QDHF2hlOjoafg=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/angular/index.metadata.json</key>
+		<data>
+		ShCXpxC3KI5KPFw2e0DgleQlZBs=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/checkbox.js</key>
+		<data>
+		hdNCdNOvlfbgoyEXlfmnFTMdJ34=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/index.d.ts</key>
+		<data>
+		fH/ekfjVqByKN/zR+sQWUTR9Xg4=
+		</data>
+		<key>app/tns_modules/nativescript-checkbox/package.json</key>
+		<data>
+		1sbyO3ssM9Y2SGhWjqxpEFYfS10=
 		</data>
 		<key>app/tns_modules/nativescript-intl/README.md</key>
 		<data>
@@ -11725,11 +11773,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2Q3YT6ti+SNo4BoDVHgJpo/LSi8=
+			7LOTsvsUgcERgv1InTjlYmWv/OI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LYOMnmF7UYXqn38XDPkm1DHlVCAhrfV8m3+pfcN9AsM=
+			7FpBx5DpAwXLBSTNXa5BFh+ZD0LaEn6EUXCyUiiI5B4=
+			</data>
+		</dict>
+		<key>Frameworks/BEMCheckBox.framework/BEMCheckBox</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FO+SUkSQRDN8Vogge5XKuZ1McpU=
+			</data>
+			<key>hash2</key>
+			<data>
+			cyqZyKNwia+ocDD5BV8DmDKA/K+Em/dJ9C/ZZgx5HXc=
+			</data>
+		</dict>
+		<key>Frameworks/BEMCheckBox.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/bXTE5XNAS95jLyqe+SAUwzxqmc=
+			</data>
+			<key>hash2</key>
+			<data>
+			i6LcLWuVwtntyaNC9daWTe8T1wWO8Byies7Nl+ud6Uw=
+			</data>
+		</dict>
+		<key>Frameworks/BEMCheckBox.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2PxpvYJuRnYuIJCr50Sgz5bm9DA=
+			</data>
+			<key>hash2</key>
+			<data>
+			fkAHi5guATc2eg55/smjVOcPGqZYDHUnmAUlr4Fjp/Y=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -11978,11 +12059,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KZM1d1TsTlEwlUrPBR+Vt12gJTQ=
+			OiORq1GSJiUOPobxEbY9rbYpVhA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mI+hUPsqaETm8Zy6wFcZbxjaBHAdV5gKStfdXXeC0Kw=
+			5dXpXXgRlcbmUdkpfx4q+Oh3JwkUmXbZTzAgB4k4Btc=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -12000,11 +12081,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TH7YjL3sLzT7qlusRRbFNhCgtDg=
+			1+Qzi3EtANurh6m6gaKFKZX3aYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			l2Y8PQUH2VLFfhNt8NHPG6JQ9I1d7Jfr6R2XnYMILBw=
+			oj4Lq8i1OsRbaPdlmcQFMYjXCE080xJN8uvTVw5Jl1o=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -12055,33 +12136,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VXJITcSPkUIvNBVoZO+BvdQ3J18=
+			Kk9n5ktwgqedBq2oUKEuanByvv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			S5S/f8aLEYSXJHFy36IQnMb8GWHwEEfUPihTpqelFjs=
+			+QzyGSV0YZ2zNhH8po4UjNSSNWQWwuaXKiIEIYla+GE=
 			</data>
 		</dict>
 		<key>app/app.module.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QPj1nviPx+f+VYV0839kp+E0XKI=
+			EV4WGQ1o4oZTYwub9FuNmzZdXP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MBRwRkedcfT4DInUmeCspG69f46vt1+dtt70tuu/NxM=
+			r4vhSH+PKd+BgOGAIeRrdYIwzCfBPAo6T32Qm3sgUoM=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0sJMbyKsx8Rfv2RzUgR5AoCnxZk=
+			8n8QxPC9/S6+cAejjU0M2tQjLNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jJss8F7srBXWbomRYGQjkzM7NhRdP/mB2i5ulicNF8A=
+			FMqlW/dCNDQE6Z25Gh7Q+iMlNKFRX6nMgRqu2HBKHbg=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
@@ -12148,6 +12229,17 @@
 			<key>hash2</key>
 			<data>
 			b2lAvgg1w93skZnl/EK+TLxh68/VjGI/33GTZiU/F4A=
+			</data>
+		</dict>
+		<key>app/fonts/Lato-Semibold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			llaeLPzDopi7GuohED0NHjx+LtQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			LcXTHizx4p80MOst+hupkR4I7kAbYd0S9A4KywR6F6M=
 			</data>
 		</dict>
 		<key>app/fonts/Pacifico.ttf</key>
@@ -12352,44 +12444,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HguWfssIgefGaBwhLqwQuxwfTSg=
+			VmkVovOeIiElOf34fP3SCmz8kZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			qKmlDBM/G6QhrR6WGJZYoyaRVqKiqDp4dodlapfhyb4=
+			UwKyvxmtDyFAV20Y1PsDV3waDIbtsBr3bG0tJHZF05E=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3EkrJzGZumcz77OfgUgzhbi8mqU=
+			genpeZ0FpVvPqCNbQz6/anKUkvY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BWn0Yz6XB6Kn/t8y8paKjQK7Gh5H69jg7+atZq5FzoM=
+			dddMO+ZPEvZlHM/oQZC4tSnv5UdmqDhAgGc2qJTl9GQ=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DZGK2LX5SXZpZ6xGSQH6aKJUnUY=
+			95833hGL+83j0gSCiezsmJzgZKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			phYR9tvK3EEG+x0xXz3zH4biZm59rxNwP/DXuUHROL4=
+			Z1kHtFBqLEQkAFjUsqbR8rUR2bbJ7BRRWkw/mj7NLrs=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9QZe7/vdbjFwPvdAefGH5xi0zoo=
+			Gf2ri0nDga+tFRcT635muEUFESc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q/DFnlEo6KiYDgQMRM0oPEiMB61vNhxdM48iAT6km2U=
+			n/jIoaq+IxTiWztB7Wl2bqo/1Txxt2TA/6bbgzddvKA=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list.component.js</key>
@@ -12407,44 +12499,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yhc0xUoa0wSEFPf7C2TkGiSOjeg=
+			1sPakebR5WSeq7ub3kJNRoWS4w4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ad2gPMgw6Kr4IdVyH//n+ENoQDp5IWttlN8bd1xCYVE=
+			mXQ1pZdp0vSThukMp5cLhwImt5hoS++/KHcP2lZ7YTE=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list_page.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pEe0B+Y3iJ/Bdk0h9o3FWkJdnk8=
+			pTuHV63bpHFAnMhX4Me08Qfd+8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			9OQS+NL86ifXu426Wz6eKtohbL6rhBuCPBvANoT2f90=
+			uFVwBQ4rqBm8xQ+x6mW4gdYU0DeIVDwSGeeBr/AgDk4=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list_page.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nzRnsnJ+75QlA0msMtATyo7ffuQ=
+			rSfg76yNEv9BxyakMxcwXyXTi9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			lxXuRinh/xc1QWqz0kmEciaQcwpgrgzoIYdOykYPzTk=
+			oB290Dyq4RWqwfTWyQ8KS+d0l5VYDiRItF+zWwMOA58=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list_page.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hu0XmaMbTqeQ3URRnae1hn+UzE0=
+			Ut8gP2hPYa3GXn/fGfCEqkqwKtk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6nrJ6Av+WhncCl3LGCVPtm0enY5x5+cG9SH/8GchlFI=
+			nUqwXXp4GKMOce1Etz/+L5ucpPphnbU38bmQx0cudVY=
 			</data>
 		</dict>
 		<key>app/pages/loading_page/loading_page.component.js</key>
@@ -22389,6 +22481,94 @@
 			<key>hash2</key>
 			<data>
 			F7gt4a6v0BMWXbS7N/9UEXI1ff4zJgXJxp0KyFG5NqQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/BEMCheckBox.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ve97SW298XIC3+PhqyQcF5Kmmgg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Cf+IUUXlveYQxx9rNXvvXttDwheGpeT8eDoJJTeYzBY=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pcq6rvkl3k+IGgldRZhGCDzpTEA=
+			</data>
+			<key>hash2</key>
+			<data>
+			4RLkpaXRrCHZceMt1NT9wf3YsL5bn8Bg7WPM/fzZN5U=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/angular/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lcbnREeBqdKaYQfvrCMd3OlKsNI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ELZidU7Td9e3lz0zIai4uAPb+z9JqQ/BhfQjlmFUS2E=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/angular/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4sw0QMsjr6YdY/QDHF2hlOjoafg=
+			</data>
+			<key>hash2</key>
+			<data>
+			/s0NpLy90Wzk3D4oNdbhzEZHQiMmueoOakhjZ8L/8hw=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/angular/index.metadata.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ShCXpxC3KI5KPFw2e0DgleQlZBs=
+			</data>
+			<key>hash2</key>
+			<data>
+			sKeJSHeDL4G1cQTImDmgzUtHlsbLJJ8oXC9j0TBj900=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/checkbox.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hdNCdNOvlfbgoyEXlfmnFTMdJ34=
+			</data>
+			<key>hash2</key>
+			<data>
+			aQ7qy6UNivQ2CxMgaQ0JUx0H3Q02/q3zCpFJZkZpvpY=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fH/ekfjVqByKN/zR+sQWUTR9Xg4=
+			</data>
+			<key>hash2</key>
+			<data>
+			V9ygAqW/w+f7h0bUz0h0WUtr5RcSwn01dN/YnYlN4eE=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-checkbox/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1sbyO3ssM9Y2SGhWjqxpEFYfS10=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jx3W2VusR6M+RPqv95RMJH2S74se5OdF4692xLJ3Yaw=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-intl/README.md</key>

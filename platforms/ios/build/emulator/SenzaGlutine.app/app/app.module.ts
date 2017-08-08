@@ -10,6 +10,7 @@ import { LoginComponent } from "./pages/login_page/login_page.component";
 import { LoadingPage } from "./pages/loading_page/loading_page.component";
 import { ListComponent } from "./pages/list_page/list_page.component";
 import { Item_pageComponent } from "./pages/item_page/item_page.component";
+import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -23,7 +24,8 @@ import { Item_pageComponent } from "./pages/item_page/item_page.component";
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        TNSCheckBoxModule
     ],
     declarations: [
         AppComponent,

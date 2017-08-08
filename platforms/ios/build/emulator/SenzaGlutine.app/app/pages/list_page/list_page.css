@@ -69,3 +69,11 @@ Page{
 .margin{
     margin-top: 3%;
 }
+
+#testCard{
+    border: 2 solid black;
+}
+
+.whiteCard{
+    background-color: white;
+}

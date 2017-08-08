@@ -9,6 +9,7 @@
     "@angular/router": true,
     "nativescript-angular": true,
     "nativescript-cardview": true,
+    "nativescript-checkbox": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,
     "rxjs": true,

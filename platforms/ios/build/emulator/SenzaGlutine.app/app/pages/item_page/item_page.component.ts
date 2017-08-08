@@ -28,11 +28,12 @@ export class Item_pageComponent implements OnInit {
 	screen = {	
 		width:0,
 		height:0,
-		heightPercent:''
+		heightPercent: ''
 	}
 	startOrder = false;
 	select = 0;
 	selectedOrder = "Order Table";
+	selectedItem: any;
 	constructor(private page: Page, private frame: Frame) { }
 
 	ngOnInit() {
@@ -42,13 +43,17 @@ export class Item_pageComponent implements OnInit {
 		console.log("Device model: " + platformModule.screen.mainScreen.widthPixels);
 		this.screen.width = platformModule.screen.mainScreen.widthPixels;
 		this.screen.height = platformModule.screen.mainScreen.heightPixels;
-		this.screen.heightPercent = (Number(platformModule.screen.mainScreen.heightPixels)/100).toFixed(1);
+		this.screen.heightPercent = (platformModule.screen.mainScreen.heightPixels/100).toFixed(1);
 		console.log("Device model: " + this.screen.width);
 		console.log("Device height: " + this.screen.height);
 		console.log("Percent: " + this.screen.heightPercent);
 
-		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'},
-			{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
+		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here', extras:[
+			"Extra cheese", "Extra tomato", "Add bacon", "Add ham", "Add egg"
+		]},
+			{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here', extras:[
+			"Extra cheese", "Extra tomato", "Add bacon", "Add ham", "Add egg"
+		]}
 		];
 		this.main = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here'}
 		];
@@ -60,9 +65,10 @@ export class Item_pageComponent implements OnInit {
     }
 
 	 }
-	 getView(){
+	 getView(item){
 		this.startOrder = true;
 		this.addBottomBorder("order");
+		this.selectedItem = item;
 	 }
 	 selectedIndexChanged(picker) {
         console.log('picker selection: ' + picker.selectedIndex);
