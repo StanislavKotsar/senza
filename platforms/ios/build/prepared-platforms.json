@@ -10,6 +10,8 @@
     "nativescript-angular": true,
     "nativescript-cardview": true,
     "nativescript-checkbox": true,
+    "nativescript-sidedrawer": true,
+    "nativescript-telerik-ui": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,
     "rxjs": true,

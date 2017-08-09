@@ -17,7 +17,7 @@
                 <Label text="REWARDS" (tap)="show= 'rewards'" class="test long"></Label>
                 <Label text="MENU" (tap)="show= 'menu'" class="test"></Label>
                 <Label text="BASKET" (tap)="show= 'basket'" class="test"></Label>
-                <Label text="INFO" class="test"></Label>
+                <Label text="INFO" (tap)="show= 'info'" class="test"></Label>
             </WrapLayout>
             <Card:CardView class="whiteCard" shadowOffsetWidth="0" shadowOffsetHeight="0" shadowRadius="3">
             <StackLayout *ngIf="show === 'rewards'" class="points">
@@ -85,11 +85,13 @@
 
                         <StackLayout *ngIf="select === 3">
                             <Label text="ADD TO ORDER"  class="order_picker extras"></Label>
-                            <Label text="Pizza Margarita" marginTop="40px" class="order_name extras"></Label>
+                            <Label text="Pizza Margarita" class="order_name extras"></Label>
                             <Label text="Product description goes here" marginTop="20px" class="order_desc extras"></Label>
-                            <Label text="ADD EXTRAS" marginTop="20px" class="order_extra"></Label>
+                            <Label text="ADD EXTRAS" class="order_extra"></Label>
                             <DockLayout *ngFor="let item of selectedItem.extras" class="extras">
-                                <StackLayout class="check_wrap"><CheckBox  checked="false" class="checkbox"></CheckBox></StackLayout>
+                                <StackLayout class="check_wrap">
+                                <CheckBox  checked="false" fontSize="15" class="checkbox"></CheckBox>
+                                </StackLayout>
                                 <Label [text]="item" class="item_extra"></Label>
                                 <Label text="+ €1.29" class="item_extra check"></Label>
                             </DockLayout>
@@ -128,7 +130,24 @@
                     <Label text=" I’ve double checked my order"></Label>
                 </DockLayout>
             </StackLayout>
-
+            
+            <StackLayout *ngIf="show === 'info'" class="menu">
+                <Label text="Opening Times" class="open_t"></Label>
+                <DockLayout class="day_info">
+                    <Label text="Monday - Friday"></Label>
+                    <Label text="9:00 - 17:00" class="time_info"></Label>
+                </DockLayout>
+                <DockLayout class="day_info">
+                    <Label text="Saturday"></Label>
+                    <Label text="9:00 - 16:00" class="time_info"></Label>
+                </DockLayout>
+                <DockLayout class="day_info">
+                    <Label text="Sunday"></Label>
+                    <Label text="11:00 - 15:00" class="time_info"></Label>
+                </DockLayout>
+                <Label text="Location" class="loc"></Label>
+                <Label text="Viale M. Ceccarini, 192, 47838 Riccione RN, Italy" class="adress"></Label>
+            </StackLayout>
 
 
         </StackLayout>

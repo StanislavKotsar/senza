@@ -17,7 +17,7 @@
                 <Label text="REWARDS" (tap)="show= 'rewards'" class="test long"></Label>
                 <Label text="MENU" (tap)="show= 'menu'" class="test"></Label>
                 <Label text="BASKET" (tap)="show= 'basket'" class="test"></Label>
-                <Label text="INFO" class="test"></Label>
+                <Label text="INFO" (tap)="show= 'info'" class="test"></Label>
             </WrapLayout>
             <Card:CardView class="whiteCard" shadowOffsetWidth="0" shadowOffsetHeight="0" shadowRadius="3">
             <StackLayout *ngIf="show === 'rewards'" class="points">
@@ -84,11 +84,14 @@
                         </StackLayout>
 
                         <StackLayout *ngIf="select === 3">
-                            <Label text="ADD TO ORDER"  class="order_picker"></Label>
-                            <Label text="Pizza Margarita" marginTop="40px" class="order_name"></Label>
-                            <Label text="Product description goes here" marginTop="20px" class="order_desc"></Label>
-                            <Label text="ADD EXTRAS" marginTop="20px" class="order_extra"></Label>
-                            <DockLayout *ngFor="let item of selectedItem.extras">
+                            <Label text="ADD TO ORDER"  class="order_picker extras"></Label>
+                            <Label text="Pizza Margarita" class="order_name extras"></Label>
+                            <Label text="Product description goes here" marginTop="20px" class="order_desc extras"></Label>
+                            <Label text="ADD EXTRAS" class="order_extra"></Label>
+                            <DockLayout *ngFor="let item of selectedItem.extras" class="extras">
+                                <StackLayout class="check_wrap">
+                                <CheckBox  checked="false" fontSize="15" class="checkbox"></CheckBox>
+                                </StackLayout>
                                 <Label [text]="item" class="item_extra"></Label>
                                 <Label text="+ €1.29" class="item_extra check"></Label>
                             </DockLayout>
@@ -96,7 +99,7 @@
                     </StackLayout>
 
 
-                    <StackLayout   class="wrap_btn" >
+                    <StackLayout   class="wrap_btn">
                         <Button text="START ORDER" *ngIf="select === 2" class="add_order" (tap)="select= select = 3" [height]="(screen.height * 0.085)+'px'"></Button>
                           <Button text="ADD TO ORDER" *ngIf="select === 3" class="add_order" (tap)="select= select = 3" [height]="(screen.height * 0.085)+'px'"></Button>
                     </StackLayout>
@@ -105,27 +108,46 @@
 
             <StackLayout *ngIf="show === 'basket'" class="menu">
                 <StackLayout class="coll">
-                    <Label text="COLLECTION ORDER"></Label>
+                    <Label text="COLLECTION ORDER" class="header_order"></Label>
                     <Label text="Collection time: 11:30am" class="time"></Label>
                 </StackLayout>
-                <DockLayout>
+                <DockLayout class="veg_oreder">
                     <Label text="1x Vegetable House Breakfast" class="time"></Label>
                     <Label text="€6.50" class="basket_price"></Label>
                 </DockLayout>
-                <Label text="EGG COOKING: OVER EASY"></Label>
-                <Label text="BREAD TYPE: BROWN"></Label>
+                <Label text="EGG COOKING: OVER EASY" class="grey_text first"></Label>
+                <Label text="BREAD TYPE: BROWN" class="grey_text"></Label>
                 <DockLayout>
-                    <Label text="Discount"></Label>
-                    <Label text="-€1.00" class="price"></Label>
+                    <Label text="Discount" class="discount"></Label>
+                    <Label text="-€1.00" class="price discount"></Label>
                 </DockLayout>
                 <DockLayout>
-                    <Label text="TOTAL"></Label>
-                    <Label text=" €5.50" class="price"></Label>
+                    <Label text="TOTAL" class="discount"></Label>
+                    <Label text=" €5.50" class="price discount"></Label>
                 </DockLayout>
-                <Label text=" I’ve double checked my order"></Label>
-                <CheckBox #CB1 text="CheckBox Label" checked="false"></CheckBox>
+                <DockLayout class="discount">
+                    <CheckBox checked="false" color="#000000" fillColor="#ffffff"></CheckBox>
+                    <Label text=" I’ve double checked my order"></Label>
+                </DockLayout>
             </StackLayout>
-
+            
+            <StackLayout *ngIf="show === 'info'" class="menu">
+                <Label text="Opening Times" class="open_t"></Label>
+                <DockLayout class="day_info">
+                    <Label text="Monday - Friday"></Label>
+                    <Label text="9:00 - 17:00" class="time_info"></Label>
+                </DockLayout>
+                <DockLayout class="day_info">
+                    <Label text="Saturday"></Label>
+                    <Label text="9:00 - 16:00" class="time_info"></Label>
+                </DockLayout>
+                <DockLayout class="day_info">
+                    <Label text="Sunday"></Label>
+                    <Label text="11:00 - 15:00" class="time_info"></Label>
+                </DockLayout>
+                <Label text="Location" class="loc"></Label>
+                <Label text="Viale M. Ceccarini, 192, 47838 Riccione RN, Italy" class="adress"></Label>
+            </StackLayout>
 
 
         </StackLayout>

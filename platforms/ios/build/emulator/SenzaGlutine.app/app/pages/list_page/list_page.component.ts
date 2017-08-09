@@ -7,6 +7,10 @@ import { topmost,Frame } from "ui/frame";
 import { isIOS } from "platform";
 import { WrapLayout } from "ui/layouts/wrap-layout";
 import { View } from "ui/core/view";
+
+
+
+
 declare var UIImage: any;
 declare var UIBarMetrics: any;
 declare var controller: any;

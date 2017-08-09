@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0384C0E81A49452FAB2F31DA /* shadow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E66ECC2EEFB4A4CB28F5F5F /* shadow2.png */; };
 		053396EAEB5B49E79FE36AEA /* App_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B78AD9100408434984F5F09D /* App_shadow.png */; };
@@ -30,6 +29,8 @@
 		E1023B7C3ED945B6B944AEA0 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C3B3184E24474BA56B55EB /* pizza.png */; };
 		EA7381ECD8B648ECBF163301 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A0E843A2C94E2387AC0F33 /* TNSWidgets.framework */; };
 		ED2BD056BB1C431C8968D892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F9CF79CB9B4F889361EFFD /* LaunchScreen.storyboard */; };
+		C06CE5C2CDBB4201AA9BF85C /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7BFB8BE038465C8BB93780 /* TelerikUI.framework */; };
+		3CAEAC21EFA147DC93EADFF3 /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7BFB8BE038465C8BB93780 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0FD23FA9542B4187B981C86E /* TNSWidgets.framework in Embed Frameworks */,
+				3CAEAC21EFA147DC93EADFF3 /* TelerikUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +78,7 @@
 		DE5F7D298DE645FEB4948FC7 /* bg_inner.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = bg_inner.jpg; path = SenzaGlutine/Resources/bg_inner.jpg; sourceTree = "<group>"; };
 		F3F9CF79CB9B4F889361EFFD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = SenzaGlutine/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD2FDEF499548048CFB0D13 /* pizza_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizza_logo.png; path = SenzaGlutine/Resources/pizza_logo.png; sourceTree = "<group>"; };
+		4D7BFB8BE038465C8BB93780 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 			files = (
 				EA7381ECD8B648ECBF163301 /* TNSWidgets.framework in Frameworks */,
 				085756BACE6B41BE23832889 /* Pods_SenzaGlutine.framework in Frameworks */,
+				C06CE5C2CDBB4201AA9BF85C /* TelerikUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +120,7 @@
 			children = (
 				57A0E843A2C94E2387AC0F33 /* TNSWidgets.framework */,
 				746D1B3DD64BD8D8F991B271 /* Pods_SenzaGlutine.framework */,
+				4D7BFB8BE038465C8BB93780 /* TelerikUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -456,6 +461,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SenzaGlutine/SenzaGlutine-Prefix.pch";
@@ -482,6 +488,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SenzaGlutine/SenzaGlutine-Prefix.pch";

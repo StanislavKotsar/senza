@@ -1,10 +1,33 @@
-
 <ActionBar>
     <NavigationButton></NavigationButton>
     <ActionItem>
-        <Label text="&#xf0c9;" class="font-awesome"></Label>
+        <Label text="&#xf0c9;" (tap)="toggle()" class="font-awesome"></Label>
     </ActionItem>
 </ActionBar>
+<RadSideDrawer #drawer [transition]="sideDrawerTransition" selectionBehavior="None">
+  <StackLayout tkDrawerContent>
+    <StackLayout height="100%" id="side_menu">
+        <DockLayout>
+            <Label text="MY OFFERS"></Label>
+        </DockLayout>
+         <DockLayout>
+            <Label text="MY ACCOUNT"></Label>
+        </DockLayout>
+         <DockLayout>
+            <Label text="MY FAVOURITES"></Label>
+        </DockLayout>
+        <DockLayout>
+            <Label text="LEAVE FEEDBACK"></Label>
+        </DockLayout>
+        <DockLayout>
+            <Label text="DIRECTORY"></Label>
+        </DockLayout>
+        <DockLayout>
+            <Label text="LOG OUT"></Label>
+        </DockLayout>
+    </StackLayout>
+  </StackLayout>
+  <StackLayout tkMainContent>
 <ScrollView style="margin-top: -30">
     <StackLayout class="content">
         <Image src="res://logo" horizontalAlignment="center"class="img_bar"></Image>
@@ -77,3 +100,5 @@
         </StackLayout>
 </StackLayout>
  </ScrollView>    
+  </StackLayout>
+</RadSideDrawer>

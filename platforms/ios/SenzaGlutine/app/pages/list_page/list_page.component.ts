@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef, ViewChild } from "@angular/core";
+import { Component, OnInit, ElementRef, ViewChild, AfterViewInit, ChangeDetectorRef, Inject} from "@angular/core";
 import { Page } from "ui/page";
 import { Color } from "color";
 import { Router } from "@angular/router";
@@ -7,6 +7,11 @@ import { topmost,Frame } from "ui/frame";
 import { isIOS } from "platform";
 import { WrapLayout } from "ui/layouts/wrap-layout";
 import { View } from "ui/core/view";
+import {  SideDrawerType, RadSideDrawerComponent  } from "nativescript-telerik-ui/sidedrawer/angular";
+import { RadSideDrawer, DrawerTransitionBase, SlideInOnTopTransition } from 'nativescript-telerik-ui/sidedrawer';
+
+
+
 declare var UIImage: any;
 declare var UIBarMetrics: any;
 declare var controller: any;
@@ -19,12 +24,18 @@ declare var CGSizeMake: any;
 
 export class ListComponent implements OnInit{
   @ViewChild("test") test: ElementRef;
+  @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
   data:[{}] = [
     {}
   ];
 
-  constructor(private page: Page, private frame: Frame,private router: Router){}
+  private _sideDrawerTransition: DrawerTransitionBase;
+  private _drawer: SideDrawerType;
+
+  constructor(private page: Page, private frame: Frame,private router: Router, private _changeDetectionRef: ChangeDetectorRef){}
       ngOnInit(){
+  
+    
     this.page.actionBar.navigationButton.visibility = "collapse";
 
     if (topmost().ios) {
@@ -33,10 +44,20 @@ export class ListComponent implements OnInit{
 			navigationBar.shadowImage = UIImage.new();
     }
   }
+
+  ngAfterViewInit() {
+    this._drawer = this.drawerComponent.sideDrawer;
+    this._changeDetectionRef.detectChanges();
+    }
+
   nextPage(){
     this.router.navigate(["/item"]);
   }
 
-
+  toggle() {
+    this._drawer.toggleDrawerState();
+    this._changeDetectionRef.detectChanges();
+  }
+  
 
 }

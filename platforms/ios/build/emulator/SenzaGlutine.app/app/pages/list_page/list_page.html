@@ -5,6 +5,15 @@
         <Label text="&#xf0c9;" class="font-awesome"></Label>
     </ActionItem>
 </ActionBar>
+<RadSideDrawer #drawer [transition]="sideDrawerTransition" selectionBehavior="None">
+  <StackLayout tkDrawerContent>
+    <!-- anything you want in drawer -->
+    <!-- for example: -->
+    <!-- you want options {exact: true} on the first one because otherwise it would be considered active when 'Other Page' in active as well -->
+    <Button text="Home" [nsRouterLink]="['/home']" nsRouterLinkActive="active" [nsRouterLinkActiveOptions]="{exact:true}"></Button>
+    <Button text="Other Page" [nsRouterLink]="['/home/otherPath']" nsRouterLinkActive="active"></Button>
+  </StackLayout>
+  <StackLayout tkMainContent>
 <ScrollView style="margin-top: -30">
     <StackLayout class="content">
         <Image src="res://logo" horizontalAlignment="center"class="img_bar"></Image>
@@ -75,19 +84,7 @@
             </DockLayout>
             <Label text="1.2 km away" class="grey_text"></Label>
         </StackLayout>
- <Card:CardView marginTop="-100" radius="10" width="110%" elevation="15" shadowOffsetWidth="0" shadowOffsetHeight="0" class="whiteCard">
-                <GridLayout rows="auto, auto, 250, auto" columns="60, auto, *">
-                    <Label text="N" class="avatar-circle" row="0" col="0" ></Label>
-                    <Label text="Nathanael Anderson" textWrap="true" margin="10" class="size16 align-center" row="0" col="1"> </Label>
-                    <Label text="If you know what load &#8220;*&#8221;,8,1 is; you might have a clue as to how long I've been programming." textWrap="true" margin="10" class="size16" row="1" colSpan="3"> </Label>
-                    <Image src="~/images/nathanael.jpg" stretch="aspectFill" row="2" colSpan="3"> </Image>
-                    <GridLayout row="3" colSpan="3" rows="auto" columns="auto, auto, auto">
-                        <Button text="&#xE80D;" class="Material info clear-btn gray" col="0"></Button>
-                        <Button text="&#xE0B9;" class="Material info clear-btn gray" col="1" ></Button>
-                        <Button text="&#xE87D;" class="Material info clear-btn gray" col="2" ></Button>
-                    </GridLayout>
-                </GridLayout>
-            </Card:CardView> 
-
 </StackLayout>
  </ScrollView>    
+  </StackLayout>
+</RadSideDrawer>

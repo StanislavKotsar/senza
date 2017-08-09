@@ -1,0 +1,10 @@
+*.js
+*.js.map
+*.log
+*.d.ts
+node_modules
+.vscode/
+platforms/
+node_modules/
+app/tns_modules/
+.DS_Store

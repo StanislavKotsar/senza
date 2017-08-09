@@ -154,7 +154,7 @@ ScrollView{
 .order_container{
     background-color: white;
     z-index: 3;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -163,7 +163,6 @@ ScrollView{
     margin-top: 20;
     text-align: center;
     color: #434343;
-    margin-bottom: 0px;
     padding: 0;
     font-size: 18;
 }
@@ -191,8 +190,7 @@ ScrollView{
 
 .add_order{
     background-color: #1d5823;
-    margin-top: 5;
-    margin-bottom: 5;
+    margin-bottom: 15;
     width: 92%;
     color: #f3f3f3;
     height: 8.6%;
@@ -213,46 +211,109 @@ ScrollView{
 .order_name{
     text-align: center;
     color: black;
+    font-size: 16px;
+    margin-top: 30px;
 }
 .order_desc{
     color: #434343;
     text-align: center;
-    font-size: 15;
+    font-size: 14;
 }
 
-
+.extras{
+    width: 90%;
+}
 .order_extra{
     background-color: #eeeeee;
     color: #666666;
-    padding: 10;
+    padding: 7;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 44px;
 }
 
 .item_extra{
     color: #666666;
     font-family: "Lato-Semibold";
+    font-size: 15;
+    
 }
 
 .check{
     text-align: right;
 }
 
+.check_wrap{
+    padding-left: 10px;
+    padding-top: 3px;
+}
 .coll{
     background-color: #999999;
-    padding: 26px;
+    padding: 25px;
     width: 100%;
     text-align: center;
     color: white;
+    margin-top: 5px;
 }
 
 .time,basket_price{
     font-size: 15;
+    font-family: "Lato-Bold";
+    font-weight: 400;
 }
 
 .basket_price{
     text-align: right;
     color: #434343;
+    font-size: 12;
 }
 .price{
     text-align: right;
-    color: #434343
+    color: #434343;
+}
+
+.veg_oreder{
+    margin-top: 45px;
+}
+
+.grey_text{
+    color: #999999;
+    font-size: 10;
+    margin-bottom: 4px;
+}
+.first{
+    margin-top: 16px;
+}
+
+.discount{
+    font-size: 15 ;
+    color: #434343;
+    margin-top: 45px;
+}
+CheckBox{
+   color:  green;
+}
+
+.time_info{
+    text-align: right;
+}
+
+.open_t{
+    margin-top: 5px;
+    font-family: "Lato-Bold";
+}
+
+.day_info{
+    font-size: 15 ;
+    color: #434343;
+    margin-top: 25px;
+}
+
+.loc{
+    margin-top: 70px;
+}
+
+.adress{
+    font-family: "Lato-Semibold";
+    font-size: 13;
 }

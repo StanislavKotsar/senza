@@ -1,3 +1,6 @@
+import { NativeScriptUISideDrawerModule } from "nativescript-telerik-ui/sidedrawer/angular";
+import { NativeScriptUIListViewModule } from "nativescript-telerik-ui/listview/angular";
+
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
@@ -12,6 +15,9 @@ import { ListComponent } from "./pages/list_page/list_page.component";
 import { Item_pageComponent } from "./pages/item_page/item_page.component";
 import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
 
+
+
+
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
@@ -25,7 +31,10 @@ import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
     imports: [
         NativeScriptModule,
         AppRoutingModule,
-        TNSCheckBoxModule
+        TNSCheckBoxModule,
+        NativeScriptUISideDrawerModule,
+        NativeScriptUIListViewModule
+
     ],
     declarations: [
         AppComponent,
