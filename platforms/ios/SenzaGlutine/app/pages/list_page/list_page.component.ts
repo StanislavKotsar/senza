@@ -37,7 +37,7 @@ export class ListComponent implements OnInit{
   
     
     this.page.actionBar.navigationButton.visibility = "collapse";
-
+this.page.actionBarHidden = true;
     if (topmost().ios) {
       var navigationBar = topmost().ios.controller.navigationBar;
 			navigationBar.setBackgroundImageForBarMetrics(UIImage.new(), UIBarMetrics.UIBarMetricsDefault);
@@ -59,5 +59,8 @@ export class ListComponent implements OnInit{
     this._changeDetectionRef.detectChanges();
   }
   
+  enterAccount(){
+    this.router.navigate(["/account"]);
+  }
 
 }

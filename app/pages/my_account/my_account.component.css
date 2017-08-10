@@ -1,0 +1,32 @@
+.my_account {
+
+}
+.action_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+.img_bar{
+    height: 16.16%; 
+    margin: 0 auto;
+
+}
+
+.wrap{
+    height: 16.16%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.img_wrap{
+    align-self: stretch;
+    height: inherit;
+    margin: auto 0;
+}
+
+.font-awesome{
+    font-size: 18;
+}

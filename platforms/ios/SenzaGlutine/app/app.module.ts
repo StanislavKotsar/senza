@@ -12,6 +12,7 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 import { LoginComponent } from "./pages/login_page/login_page.component";
 import { LoadingPage } from "./pages/loading_page/loading_page.component";
 import { ListComponent } from "./pages/list_page/list_page.component";
+import { MyAccountComponent } from "./pages/my_account/my_account.component";
 import { Item_pageComponent } from "./pages/item_page/item_page.component";
 import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
 
@@ -41,7 +42,8 @@ import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
         LoginComponent,
         LoadingPage,
         ListComponent,
-        Item_pageComponent
+        Item_pageComponent,
+        MyAccountComponent
     ],
     providers: [
         ItemService

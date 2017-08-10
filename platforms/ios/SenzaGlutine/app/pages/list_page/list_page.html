@@ -7,24 +7,35 @@
 <RadSideDrawer #drawer [transition]="sideDrawerTransition" selectionBehavior="None">
   <StackLayout tkDrawerContent>
     <StackLayout height="100%" id="side_menu">
-        <DockLayout>
+        <StackLayout class="userwrap">
+            <Label text="Mr Alberto Beraudo" class="username"></Label>
+            <Label text="MEMBER SINCE 2017" class="member"></Label>
+        </StackLayout>
+        <DockLayout class="menu_wrap">
+            <Label text="&#xf017; " class="font-awesome"></Label>
             <Label text="MY OFFERS"></Label>
         </DockLayout>
-         <DockLayout>
+         <DockLayout class="menu_wrap" (tap)="enterAccount()">
+             <Label text="&#xf017; " class="font-awesome"></Label>
             <Label text="MY ACCOUNT"></Label>
         </DockLayout>
-         <DockLayout>
+         <DockLayout class="menu_wrap">
+             <Label text="&#xf017; " class="font-awesome"></Label>
             <Label text="MY FAVOURITES"></Label>
         </DockLayout>
-        <DockLayout>
+        <DockLayout class="menu_wrap">
+            <Label text="&#xf017; " class="font-awesome"></Label>
             <Label text="LEAVE FEEDBACK"></Label>
         </DockLayout>
-        <DockLayout>
+        <DockLayout class="menu_wrap">
+            <Label text="&#xf017; " class="font-awesome"></Label>
             <Label text="DIRECTORY"></Label>
         </DockLayout>
-        <DockLayout>
+        <DockLayout class="menu_wrap">
+            <Label text="&#xf017; " class="font-awesome"></Label>
             <Label text="LOG OUT"></Label>
         </DockLayout>
+        <Label text="App version: v2.0.1" class="version"></Label>
     </StackLayout>
   </StackLayout>
   <StackLayout tkMainContent>
