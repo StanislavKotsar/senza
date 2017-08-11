@@ -7,7 +7,7 @@ import { topmost,Frame } from "ui/frame";
 import { isIOS } from "platform";
 import { WrapLayout } from "ui/layouts/wrap-layout";
 import { View } from "ui/core/view";
-import {  SideDrawerType, RadSideDrawerComponent  } from "nativescript-telerik-ui/sidedrawer/angular";
+import { SideDrawerType, RadSideDrawerComponent } from "nativescript-telerik-ui/sidedrawer/angular";
 import { RadSideDrawer, DrawerTransitionBase, SlideInOnTopTransition } from 'nativescript-telerik-ui/sidedrawer';
 
 
@@ -61,6 +61,10 @@ this.page.actionBarHidden = true;
   
   enterAccount(){
     this.router.navigate(["/account"]);
+  }
+
+  enterFeedback(){
+    this.router.navigate(["/feedback"]);
   }
 
 }

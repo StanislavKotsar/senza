@@ -53,9 +53,9 @@
                         <Label [text]="item.price" fontFamily="Lato-Black" class="item_l"></Label>
                     </DockLayout>
                     <Label [text]="item.desc"  class="desc"></Label>
+            
                 </StackLayout>
             </StackLayout>
-            
             <Card:CardView *ngIf="startOrder === true" style="margin-top: -980px" shadowOffsetWidth="0" shadowOffsetHeight="0" shadowRadius="3" class="whiteCard">
             <FlexboxLayout *ngIf="startOrder === true" [height]="(screen.height * 0.79)+'px'" class="order_container">
                     <StackLayout>
@@ -97,8 +97,6 @@
                             </DockLayout>
                         </StackLayout>
                     </StackLayout>
-
-
                     <StackLayout   class="wrap_btn">
                         <Button text="START ORDER" *ngIf="select === 2" class="add_order" (tap)="select= select = 3" [height]="(screen.height * 0.085)+'px'"></Button>
                           <Button text="ADD TO ORDER" *ngIf="select === 3" class="add_order" (tap)="select= select = 3" [height]="(screen.height * 0.085)+'px'"></Button>
@@ -148,8 +146,6 @@
                 <Label text="Location" class="loc"></Label>
                 <Label text="Viale M. Ceccarini, 192, 47838 Riccione RN, Italy" class="adress"></Label>
             </StackLayout>
-
-
         </StackLayout>
     </StackLayout>
 </ScrollView>

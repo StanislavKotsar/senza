@@ -1,0 +1,18 @@
+<StackLayout>
+    <Image src="res://logo" horizontalAlignment="center"class="img_bar"></Image>
+    <StackLayout>
+        <FlexboxLayout  class="wrap" marginTop="-16.16%">
+            <StackLayout  width="100%">
+                <Label text="&#xf0c9;" (tap)="toggle()" class="font-awesome"></Label>
+            </StackLayout>
+        </FlexboxLayout>
+    </StackLayout>
+    <FlexboxLayout class="feedback_wrap">
+        <StackLayout width="50%">
+        </StackLayout>
+        <DockLayout id="picker" width="85%">
+            <Label text="Restaurant"></Label>
+            <Label text="&#xf0d7;" id="down" class="font-awesome"></Label>
+        </DockLayout>
+    </FlexboxLayout>
+</StackLayout>

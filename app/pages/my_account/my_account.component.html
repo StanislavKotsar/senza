@@ -1,9 +1,57 @@
-<StackLayout>
+<RadSideDrawer #drawer [transition]="sideDrawerTransition" selectionBehavior="None">
+    <StackLayout tkDrawerContent>
+      <StackLayout height="100%" id="side_menu">
+          <StackLayout class="userwrap">
+              <Label text="Mr Alberto Beraudo" class="username"></Label>
+              <Label text="MEMBER SINCE 2017" class="member"></Label>
+          </StackLayout>
+          <DockLayout class="menu_wrap">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="MY OFFERS"></Label>
+          </DockLayout>
+           <DockLayout class="menu_wrap" (tap)="enterAccount()">
+               <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="MY ACCOUNT"></Label>
+          </DockLayout>
+           <DockLayout class="menu_wrap">
+               <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="MY FAVOURITES"></Label>
+          </DockLayout>
+          <DockLayout class="menu_wrap" (tap)="enterFeedback()">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="LEAVE FEEDBACK"></Label>
+          </DockLayout>
+          <DockLayout class="menu_wrap">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="DIRECTORY"></Label>
+          </DockLayout>
+          <DockLayout class="menu_wrap">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="LOG OUT"></Label>
+          </DockLayout>
+          <Label text="App version: v2.0.1" class="version"></Label>
+      </StackLayout>
+    </StackLayout>
+<StackLayout tkMainContent>
     <Image src="res://logo" horizontalAlignment="center"class="img_bar"></Image>
     <FlexboxLayout  class="wrap" marginTop="-16.16%">
         <StackLayout width="100%">
-            <Label text="&#xf0c9;" class="font-awesome"></Label>
+            <Label text="&#xf0c9;" (tap)="toggle()" class="font-awesome"></Label>
         </StackLayout>
     </FlexboxLayout>
-<Label class="my_account" text="Hello My_accountComponent!"></Label>
+    <StackLayout class="account_wrap">
+    <Label text="MY ACCOUNT" class="my"></Label>   
+    <Label class="my_account" text="FIRST NAME"></Label>
+    <TextField keyboardType="email" id="first_name"
+    autocorrect="false" autocapitalizationType="none"></TextField>
+    <Label class="my_account" text="LAST NAME"></Label>
+    <TextField keyboardType="email" id="last_name"
+    autocorrect="false" autocapitalizationType="none"></TextField>
+    <Label class="my_account"  text="EMAIL"></Label>
+    <TextField keyboardType="email" id="email"
+    autocorrect="false" autocapitalizationType="none"></TextField>
+    <Label class="my_account" text="DATE OF BIRTH"></Label>
+    <TextField keyboardType="email" id="birth"  autocorrect="false" autocapitalizationType="none"></TextField>
+    <Button text="SAVE" class="login_btn"></Button>
+    </StackLayout>
 </StackLayout>

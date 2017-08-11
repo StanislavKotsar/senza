@@ -1,0 +1,53 @@
+
+
+.img_bar{
+    height: 16.16%; 
+    margin: 0 auto;
+
+}
+
+.wrap{
+    height: 16.16%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.img_wrap{
+    align-self: stretch;
+    height: inherit;
+    margin: auto 0;
+}
+
+.font-awesome{
+    font-size: 18;
+}
+
+
+
+
+TextView{
+    font-family: "Lato-Semibold";
+}
+
+.feedback_wrap{
+    width: 90.1%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+.restrant_picker{
+    font-family: "Lato-Light";
+    width: 85%;
+    text-align: left;
+    margin: 0 !important;
+}
+
+#down{
+    text-align: right;
+}
+.test{
+    width: 85%;
+}

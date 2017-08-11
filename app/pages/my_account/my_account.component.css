@@ -30,3 +30,66 @@
 .font-awesome{
     font-size: 18;
 }
+
+.account_wrap{
+    width: 90.1%;
+}
+
+.my{
+    margin-top: 5%;
+    color: #00687f;
+}
+
+.my_account{
+    margin-top: 6%;
+    font-size: 15;
+}
+
+TextField{
+    height: 7%;
+}
+
+.login_btn{
+    font-family: "Lato-Black";
+    font-weight: bold;
+}
+
+Button{
+    background-color: #1d5823;
+    margin-top: 8%;
+    width: 100%;
+    color: #f3f3f3;
+    height: 10%;
+    font-size: 20;
+  }
+
+  #side_menu{
+    background-color: #f3f3f3;
+     font-family: "Lato-Semibold";
+}
+
+.username{
+    color: #5f1842;
+}
+
+.menu_wrap{
+    background-color: #fcfcfc;
+    width: 90%;
+    margin: 2px auto;
+    padding: 10 0;
+    padding-left: 10;   
+}
+
+.userwrap{
+    width: 90%;
+    padding: 10 0;
+    padding-left: 10;   
+}
+
+.version{
+    color: #5f1842;
+    width: 90%;
+    padding: 10 0;
+    padding-left: 10;
+    font-size: 12px;
+}

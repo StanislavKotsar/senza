@@ -5,6 +5,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
+import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
 
 import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
@@ -14,7 +15,7 @@ import { LoadingPage } from "./pages/loading_page/loading_page.component";
 import { ListComponent } from "./pages/list_page/list_page.component";
 import { MyAccountComponent } from "./pages/my_account/my_account.component";
 import { Item_pageComponent } from "./pages/item_page/item_page.component";
-import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
+import { FeedbackComponent } from "./pages/feedback/feedback.component";
 
 
 
@@ -43,7 +44,8 @@ import { TNSCheckBoxModule } from 'nativescript-checkbox/angular';
         LoadingPage,
         ListComponent,
         Item_pageComponent,
-        MyAccountComponent
+        MyAccountComponent,
+        FeedbackComponent
     ],
     providers: [
         ItemService
