@@ -11,6 +11,7 @@
     "nativescript-cardview": true,
     "nativescript-checkbox": true,
     "nativescript-sidedrawer": true,
+    "nativescript-star-ratings": true,
     "nativescript-telerik-ui": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,

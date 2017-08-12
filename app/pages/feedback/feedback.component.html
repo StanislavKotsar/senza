@@ -1,18 +1,86 @@
-<StackLayout>
-    <Image src="res://logo" horizontalAlignment="center"class="img_bar"></Image>
-    <StackLayout>
+<RadSideDrawer #drawer [transition]="sideDrawerTransition" selectionBehavior="None">
+    <StackLayout tkDrawerContent>
+      <StackLayout height="100%" id="side_menu">
+          <StackLayout class="userwrap">
+              <Label text="Mr Alberto Beraudo" class="username"></Label>
+              <Label text="MEMBER SINCE 2017" class="member"></Label>
+          </StackLayout>
+          <DockLayout class="menu_wrap">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="MY OFFERS"></Label>
+          </DockLayout>
+           <DockLayout class="menu_wrap" (tap)="enterAccount()">
+               <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="MY ACCOUNT"></Label>
+          </DockLayout>
+           <DockLayout class="menu_wrap">
+               <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="MY FAVOURITES"></Label>
+          </DockLayout>
+          <DockLayout class="menu_wrap" (tap)="enterFeedback()">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="LEAVE FEEDBACK"></Label>
+          </DockLayout>
+          <DockLayout class="menu_wrap">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="DIRECTORY"></Label>
+          </DockLayout>
+          <DockLayout class="menu_wrap">
+              <Label text="&#xf017; " class="font-awesome"></Label>
+              <Label text="LOG OUT"></Label>
+          </DockLayout>
+          <Label text="App version: v2.0.1" class="version"></Label>
+      </StackLayout>
+    </StackLayout>
+
+<StackLayout tkMainContent>
+    <Image src="res://logo" horizontalAlignment="center"  class="img_bar"></Image>
         <FlexboxLayout  class="wrap" marginTop="-16.16%">
             <StackLayout  width="100%">
                 <Label text="&#xf0c9;" (tap)="toggle()" class="font-awesome"></Label>
             </StackLayout>
         </FlexboxLayout>
-    </StackLayout>
     <FlexboxLayout class="feedback_wrap">
-        <StackLayout width="50%">
-        </StackLayout>
+        <Label text="FEEDBACK" class="feed"></Label>
+        <TextView text="We’d love to know what you think about your visit. Please let us know!"></TextView>
         <DockLayout id="picker" width="85%">
-            <Label text="Restaurant"></Label>
+            <Label class="rest" text="Restaurant"></Label>
             <Label text="&#xf0d7;" id="down" class="font-awesome"></Label>
         </DockLayout>
+        <FlexboxLayout class="star_wrap">
+            <Label text="Rate our food" class="star_desc"></Label>
+            <DockLayout class="stars" stretchLastChild="false">
+                        <Label text="&#xf006;" id="first_star" class="font-awesome star"></Label>
+                        <Label text="&#xf006;" id="second_star" class="font-awesome star"></Label>
+                        <Label text="&#xf006;" id="third_star" class="font-awesome star"></Label>
+                        <Label text="&#xf006;" id="fourth_star" class="font-awesome star"></Label>
+                        <Label text="&#xf006;" id="fith_star" class="font-awesome star"></Label>
+            </DockLayout>
+        </FlexboxLayout>
+            <FlexboxLayout class="star_wrap">
+                    <Label text="Rate our service" class="star_desc"></Label>
+                    <DockLayout class="stars" stretchLastChild="false">
+                                <Label text="&#xf006;" id="first_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="second_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="third_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="fourth_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="fith_star" class="font-awesome star"></Label>
+                    </DockLayout>
+                </FlexboxLayout>
+                <FlexboxLayout class="star_wrap">
+                    <Label text="Rate our restaurant" class="star_desc"></Label>
+                    <DockLayout class="stars" stretchLastChild="false">
+                                <Label text="&#xf006;" id="first_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="second_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="third_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="fourth_star" class="font-awesome star"></Label>
+                                <Label text="&#xf006;" id="fith_star" class="font-awesome star"></Label>
+                    </DockLayout>
+                </FlexboxLayout>
+                <Label class="comments" text="Additional comments?"></Label>
+                <Label text="Additional comments"></Label>
+                <TextField keyboardType="email" id="submit"  autocorrect="false" autocapitalizationType="none"></TextField>
+
     </FlexboxLayout>
+    <Button text="SUBMIT" class="login_btn"></Button>
 </StackLayout>

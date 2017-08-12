@@ -25,6 +25,7 @@
     "nativescript-cardview": "^2.0.2",
     "nativescript-checkbox": "^2.1.11",
     "nativescript-sidedrawer": "^1.0.6",
+    "nativescript-star-ratings": "^0.1.0",
     "nativescript-telerik-ui": "^3.0.4",
     "nativescript-theme-core": "~1.0.2",
     "reflect-metadata": "~0.1.8",

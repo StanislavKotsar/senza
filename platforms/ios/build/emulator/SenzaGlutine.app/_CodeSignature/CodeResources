@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/BEMCheckBox.framework/BEMCheckBox</key>
 		<data>
-		/39+eeVkc1APciu4fRGWxFxpucs=
+		bhZiSEc8+CjQQ6TLqVH5CswlNRE=
 		</data>
 		<key>Frameworks/BEMCheckBox.framework/Info.plist</key>
 		<data>
@@ -79,6 +79,18 @@
 		<key>Frameworks/BEMCheckBox.framework/_CodeSignature/CodeResources</key>
 		<data>
 		2PxpvYJuRnYuIJCr50Sgz5bm9DA=
+		</data>
+		<key>Frameworks/HCSStarRatingView.framework/HCSStarRatingView</key>
+		<data>
+		PcwFWS2I9MXbzgtG6xi4gF04GQ4=
+		</data>
+		<key>Frameworks/HCSStarRatingView.framework/Info.plist</key>
+		<data>
+		2kQ9ZZvoCB3ygjydreGi8QV/YqE=
+		</data>
+		<key>Frameworks/HCSStarRatingView.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LaOwnN+EvJ4Cz51t4prmZ90JjHg=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -222,19 +234,19 @@
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		rdxpDA3sN5BxglR8fMyw5lYXnNQ=
+		7Dntt7ztDBe7w6dvjkRwF1Xw0Ow=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		7wzQhA9l5J8QNh+V4Xfs7iLYV5w=
+		ZNTl/sdNKkRV9llTTPrqsT3mZaQ=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
-		KrhQ3z8oX/I4n7yY+S8ykr9Fg8c=
+		MoHAdNKc+3T00t4USKtfZQ2Nwa0=
 		</data>
 		<key>app/app.routing.ts</key>
 		<data>
-		C6xCdyHu7uXRM/Q+EsCiQos0khs=
+		0zwbgYTu0UNrjHpk5VGmVkc9bRk=
 		</data>
 		<key>app/fonts/Lato-Black.ttf</key>
 		<data>
@@ -332,13 +344,29 @@
 		<data>
 		ei+Gc12nE/uNFJG8YLSZuQ9VkFI=
 		</data>
+		<key>app/pages/feedback/feedback.component.css</key>
+		<data>
+		M+RJMFPC2VHtkWWJ/BVo0bPcS6o=
+		</data>
+		<key>app/pages/feedback/feedback.component.html</key>
+		<data>
+		MKxtGZb+ExrncOUGa+3JwwW35uI=
+		</data>
+		<key>app/pages/feedback/feedback.component.js</key>
+		<data>
+		D7hj+QAloIezOLF5fIp9bXmCmeg=
+		</data>
+		<key>app/pages/feedback/feedback.component.ts</key>
+		<data>
+		w4UBewb/cJuTGtrdiZVEm8s7/3k=
+		</data>
 		<key>app/pages/item_page/item_page.component.css</key>
 		<data>
 		B7oUWzOFWakinKcFMqqX5+/qHbk=
 		</data>
 		<key>app/pages/item_page/item_page.component.html</key>
 		<data>
-		4uBS3/NvC5SmTcm3HX7dg8jDQCo=
+		885AHXLkd4RYVkwxrXL75HQE4jM=
 		</data>
 		<key>app/pages/item_page/item_page.component.js</key>
 		<data>
@@ -354,19 +382,19 @@
 		</data>
 		<key>app/pages/list_page/list_page.component.js</key>
 		<data>
-		WsKU5/cDL+0VKLzppoCwZNt990E=
+		+LQIb7JYxAHClr8ix5jr3lHNhwc=
 		</data>
 		<key>app/pages/list_page/list_page.component.ts</key>
 		<data>
-		4PVi27r+QusxofmU2uzHQe1yBYc=
+		sqbMqQfHLtFVwsMqadOt4fvLXUw=
 		</data>
 		<key>app/pages/list_page/list_page.css</key>
 		<data>
-		q/n5RiZEzLcTe9vn00wqBGbqmm4=
+		8G373aYzPciOYq79wPaRdv+YUAQ=
 		</data>
 		<key>app/pages/list_page/list_page.html</key>
 		<data>
-		K8n/m7v/OJtrKORQ4EXQPNWvfZ8=
+		0mffbXVhU5qbn1zxGNB97UAJkEs=
 		</data>
 		<key>app/pages/loading_page/loading_page.component.js</key>
 		<data>
@@ -403,6 +431,22 @@
 		<key>app/pages/login_page/login_page.js</key>
 		<data>
 		0BDzeds94rsXTG+UWxAx6C7+poI=
+		</data>
+		<key>app/pages/my_account/my_account.component.css</key>
+		<data>
+		CLMGp6Xreoxk4ZV2GStl6mzj7yI=
+		</data>
+		<key>app/pages/my_account/my_account.component.html</key>
+		<data>
+		1tLA4Pd4GiCSEtjJ9F9m+e+wWI8=
+		</data>
+		<key>app/pages/my_account/my_account.component.js</key>
+		<data>
+		/U4UFcGoJtEIzSFiCoWcLMbcTJk=
+		</data>
+		<key>app/pages/my_account/my_account.component.ts</key>
+		<data>
+		5hCTtVML+NqfJfPEOrhs6ju/bu4=
 		</data>
 		<key>app/tns_modules/@angular/animations/@angular/animations.es5.js</key>
 		<data>
@@ -4091,6 +4135,50 @@
 		<key>app/tns_modules/nativescript-sidedrawer/tsconfig.json</key>
 		<data>
 		K2UsVgJHDi5SbH7hKRMH/AUjjpM=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/.editorconfig</key>
+		<data>
+		OlC+RWrLNwu3xu8PQCv6vBuU1AE=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/.npmignore</key>
+		<data>
+		a45FEZdTSmwD/6ar9XLM1rUnVxg=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/LICENSE</key>
+		<data>
+		iiV0Z3VjWcZCXOH8Ly066x1UXbs=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/README.md</key>
+		<data>
+		WNRvP/1mZZugL8iNuiovpUpRxhQ=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/index.d.ts</key>
+		<data>
+		R03ZAtVsM70jVQZnW7DmkUqCIyk=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/package.json</key>
+		<data>
+		1xrqa/7tLSZFNodJMtA/icnIewA=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/references.d.ts</key>
+		<data>
+		HK19d2ljtJJkiaOsiYI3aVUlhpo=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/scripts/postclone.js</key>
+		<data>
+		HdN7G5Vqx54c78BS0rjLfmz/Nj0=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/star-ratings.d.ts</key>
+		<data>
+		TBd9R3Iy+cgsCFmkFW/y1VdpjUI=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/star-ratings.js</key>
+		<data>
+		50I1ok3mfqCyoNfAUSZ/qbuuyeY=
+		</data>
+		<key>app/tns_modules/nativescript-star-ratings/tsconfig.json</key>
+		<data>
+		E1MCr8upOHHRs+CAXjaGmSdpdmk=
 		</data>
 		<key>app/tns_modules/nativescript-telerik-ui/.done</key>
 		<data>
@@ -11988,11 +12076,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/39+eeVkc1APciu4fRGWxFxpucs=
+			bhZiSEc8+CjQQ6TLqVH5CswlNRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FhZG+m0Drpdfe5Hwe7Wx6hhhwCPXy9gtxSwG1Zs4X+U=
+			tJeo5VAC1oL/rxrdIe6W71r0nNBODeU4avf4ZQ+YuJ4=
 			</data>
 		</dict>
 		<key>Frameworks/BEMCheckBox.framework/Info.plist</key>
@@ -12015,6 +12103,39 @@
 			<key>hash2</key>
 			<data>
 			fkAHi5guATc2eg55/smjVOcPGqZYDHUnmAUlr4Fjp/Y=
+			</data>
+		</dict>
+		<key>Frameworks/HCSStarRatingView.framework/HCSStarRatingView</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PcwFWS2I9MXbzgtG6xi4gF04GQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			92Xze5mw0q02D+HYfhhxhwLbkmC9xhBIzpGGwA+HUIk=
+			</data>
+		</dict>
+		<key>Frameworks/HCSStarRatingView.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2kQ9ZZvoCB3ygjydreGi8QV/YqE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ovbXwKELOyZOVhRwsBuv3GUCgeKVGheGLbWlBargqpA=
+			</data>
+		</dict>
+		<key>Frameworks/HCSStarRatingView.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LaOwnN+EvJ4Cz51t4prmZ90JjHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			zIfAYvyW56WXOZPwJaHKvA1OrcAqciSawzKFFehsE7w=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -12384,44 +12505,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rdxpDA3sN5BxglR8fMyw5lYXnNQ=
+			7Dntt7ztDBe7w6dvjkRwF1Xw0Ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			SSP8io+Zv3LfY6CLY8uShcoArldNC2RW8jMVfbF8Lsw=
+			/Jv61DvrugSNUvvveiEyMx3luAyJZzh8sG9a1M6KMKY=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7wzQhA9l5J8QNh+V4Xfs7iLYV5w=
+			ZNTl/sdNKkRV9llTTPrqsT3mZaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			y5WBGCzWgRrzM68JtFTbMJvc0vUAdvj7rVwfY4OfOD8=
+			MZthKnmy2kDE1b0nWiALWg4PmYgfcaIDnCpSE24GThw=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KrhQ3z8oX/I4n7yY+S8ykr9Fg8c=
+			MoHAdNKc+3T00t4USKtfZQ2Nwa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9eFSJJlgeuej28enFE0xIqMV/xkeA6vD0GXjeBhMMVs=
+			/uoCa70yadIIlw8L7a3Pm5eOyMfaK/qkmPRl2FGs398=
 			</data>
 		</dict>
 		<key>app/app.routing.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C6xCdyHu7uXRM/Q+EsCiQos0khs=
+			0zwbgYTu0UNrjHpk5VGmVkc9bRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AneJgRUW/hfBR0FqWILtS9Qc1YzzVJ62b11kc4mc00I=
+			AeyAWCQ6bqp6FCA2KzaklBtOtVymKZQimqPMHkVytxo=
 			</data>
 		</dict>
 		<key>app/fonts/Lato-Black.ttf</key>
@@ -12688,6 +12809,50 @@
 			eeX5yK5wKweTKA5toYLtfe6RaODw4gpTE69jfblLhEo=
 			</data>
 		</dict>
+		<key>app/pages/feedback/feedback.component.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M+RJMFPC2VHtkWWJ/BVo0bPcS6o=
+			</data>
+			<key>hash2</key>
+			<data>
+			5X99OkK37moI2ho9k3jt93xv1SZIBhvZV6reoIgsrew=
+			</data>
+		</dict>
+		<key>app/pages/feedback/feedback.component.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MKxtGZb+ExrncOUGa+3JwwW35uI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZGOUUMcb1AqmP3b8kILy5wFBiS4bVFJhsQ5I75IdeaA=
+			</data>
+		</dict>
+		<key>app/pages/feedback/feedback.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D7hj+QAloIezOLF5fIp9bXmCmeg=
+			</data>
+			<key>hash2</key>
+			<data>
+			5BxpRcgttY+NskVICOUG0qTD7kn8cRfhlkHieqNJ158=
+			</data>
+		</dict>
+		<key>app/pages/feedback/feedback.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w4UBewb/cJuTGtrdiZVEm8s7/3k=
+			</data>
+			<key>hash2</key>
+			<data>
+			DQsQ1Wow3YnhIPwmxxabZKwTNwvDCYHqrN5H7PTlzc4=
+			</data>
+		</dict>
 		<key>app/pages/item_page/item_page.component.css</key>
 		<dict>
 			<key>hash</key>
@@ -12703,11 +12868,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4uBS3/NvC5SmTcm3HX7dg8jDQCo=
+			885AHXLkd4RYVkwxrXL75HQE4jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WKoGVl3LiBmrmTismDLPx7ZId+2y/5zCG6etPM1gneU=
+			RcwHSrm2skgz2GPiBdgp+yvlr2DlFKYOxMnO9Lc+bB0=
 			</data>
 		</dict>
 		<key>app/pages/item_page/item_page.component.js</key>
@@ -12747,44 +12912,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WsKU5/cDL+0VKLzppoCwZNt990E=
+			+LQIb7JYxAHClr8ix5jr3lHNhwc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3aRmjkmxBmmzGrUZHfq/l3RSS4BSvhOsw/MYHIjTOOk=
+			lYuReeQChW1n8hScYVym2aUsteS3YcP0ryXlo9YzISs=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list_page.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4PVi27r+QusxofmU2uzHQe1yBYc=
+			sqbMqQfHLtFVwsMqadOt4fvLXUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oSL2oyA7Cj158vpi8VmQiWHTwkQnh9nN+Y5SyysvTo8=
+			jcTkAYSw/6oYyKheg/DsT7V3dy+TikKxt6CW9s728Os=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list_page.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q/n5RiZEzLcTe9vn00wqBGbqmm4=
+			8G373aYzPciOYq79wPaRdv+YUAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4K0wKkVV52IJXMD4fE1w11kHhDzVKxXy9Yz0jx2/qeQ=
+			TKOUcQ1aCW5FsoCoGHTBmgvS5+sG13UKSgc8/yNj/w4=
 			</data>
 		</dict>
 		<key>app/pages/list_page/list_page.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K8n/m7v/OJtrKORQ4EXQPNWvfZ8=
+			0mffbXVhU5qbn1zxGNB97UAJkEs=
 			</data>
 			<key>hash2</key>
 			<data>
-			QD+FTmoMCkgjrjD77SqfqSPSeWqvVwn4g1zqILR3weI=
+			OpZldIjo3GQLfrtT+k7XAeElQQbzlh3T9GRTz/kMvkQ=
 			</data>
 		</dict>
 		<key>app/pages/loading_page/loading_page.component.js</key>
@@ -12884,6 +13049,50 @@
 			<key>hash2</key>
 			<data>
 			8mccfwMmgjiggI3e1RX2/qyKEvfAbyb+oylOAtxj47w=
+			</data>
+		</dict>
+		<key>app/pages/my_account/my_account.component.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CLMGp6Xreoxk4ZV2GStl6mzj7yI=
+			</data>
+			<key>hash2</key>
+			<data>
+			VKQKqRolJHTB9O4qheAx0wnRNTrqrJyaggruH5fOKhc=
+			</data>
+		</dict>
+		<key>app/pages/my_account/my_account.component.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1tLA4Pd4GiCSEtjJ9F9m+e+wWI8=
+			</data>
+			<key>hash2</key>
+			<data>
+			SuWQqOSIm59BsULnwPbHiB2WO6UjdEslslXoTfEYllI=
+			</data>
+		</dict>
+		<key>app/pages/my_account/my_account.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/U4UFcGoJtEIzSFiCoWcLMbcTJk=
+			</data>
+			<key>hash2</key>
+			<data>
+			X51ljirNCZmtFiHUjUSnil/NjsoKWseGKjunkgUylLM=
+			</data>
+		</dict>
+		<key>app/pages/my_account/my_account.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5hCTtVML+NqfJfPEOrhs6ju/bu4=
+			</data>
+			<key>hash2</key>
+			<data>
+			XfJdoVDZHbFyW7D1iGXxaRxdYQ0Zqf6NBpj0J4nB/3U=
 			</data>
 		</dict>
 		<key>app/tns_modules/@angular/animations/@angular/animations.es5.js</key>
@@ -23026,6 +23235,127 @@
 			<key>hash2</key>
 			<data>
 			FxGX48gToqqE4UUofLf5NThQyHYkLl/yUjrUB4/GN7A=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/.editorconfig</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OlC+RWrLNwu3xu8PQCv6vBuU1AE=
+			</data>
+			<key>hash2</key>
+			<data>
+			HE0wbyy65TJldsaHidmtzmCWnWGtE00c4GAhzD1Ag0g=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a45FEZdTSmwD/6ar9XLM1rUnVxg=
+			</data>
+			<key>hash2</key>
+			<data>
+			N0k5qbG7ieues/SPM5c0vI1lYQ9IIeWZMOM1bVtu9bs=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iiV0Z3VjWcZCXOH8Ly066x1UXbs=
+			</data>
+			<key>hash2</key>
+			<data>
+			TDt7pAre+x9bAkl9f1Gix/Ea4fEjYofHFIUBwseC4Ho=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WNRvP/1mZZugL8iNuiovpUpRxhQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			TvlcwtBvFcAHkaAHynz7VekulUnqS1zB19FJTuGDnZ0=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R03ZAtVsM70jVQZnW7DmkUqCIyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			jZOvu3vd73AzCRo3fMtzDm/v8l6e4cB9d1XMQUqKHnM=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1xrqa/7tLSZFNodJMtA/icnIewA=
+			</data>
+			<key>hash2</key>
+			<data>
+			zuom4P7+EZE+4jlW8oxCrH3WtrfxMgwOSPEZYDZIt/8=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/references.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HK19d2ljtJJkiaOsiYI3aVUlhpo=
+			</data>
+			<key>hash2</key>
+			<data>
+			xsQIcT0mvGZRdJo1eKh4KSm3+hZ0BfsUf6p5ucZK+gc=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/scripts/postclone.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HdN7G5Vqx54c78BS0rjLfmz/Nj0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ylje+LCLGYVfLjnU/USSeUKPpAPbTZmFeAHcDIX4kls=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/star-ratings.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TBd9R3Iy+cgsCFmkFW/y1VdpjUI=
+			</data>
+			<key>hash2</key>
+			<data>
+			WDxIkigdMT063lReEwvwQCRwaBLzgQobBV1S4c7SbFI=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/star-ratings.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			50I1ok3mfqCyoNfAUSZ/qbuuyeY=
+			</data>
+			<key>hash2</key>
+			<data>
+			avkIP22jtCXHE5gymPFeIsiPGlNGNGi3A1JGjEECnXk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-star-ratings/tsconfig.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E1MCr8upOHHRs+CAXjaGmSdpdmk=
+			</data>
+			<key>hash2</key>
+			<data>
+			omr5ArqlzHmU65J07VLULmPlreTO3+MYTPAeibU8EoY=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-telerik-ui/.done</key>

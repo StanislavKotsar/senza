@@ -17,6 +17,7 @@ export class MyAccountComponent implements OnInit {
 	ids;
 	private _sideDrawerTransition: DrawerTransitionBase;
 	private _drawer: SideDrawerType;
+	
 	constructor(private page: Page, private _changeDetectionRef: ChangeDetectorRef, private router:Router) { }
 
 	ngOnInit() {

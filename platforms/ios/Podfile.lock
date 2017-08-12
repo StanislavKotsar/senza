@@ -1,12 +1,15 @@
 PODS:
   - BEMCheckBox (1.4.1)
+  - HCSStarRatingView (1.4.5)
 
 DEPENDENCIES:
   - BEMCheckBox (~> 1.4.1)
+  - HCSStarRatingView (~> 1.4.5)
 
 SPEC CHECKSUMS:
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
 
-PODFILE CHECKSUM: 010ef0206732cacee69c1ab0bf8c97b248895c7c
+PODFILE CHECKSUM: 54f5d717d977ff179d16129383ece5a6964dbdc1
 
 COCOAPODS: 1.2.1

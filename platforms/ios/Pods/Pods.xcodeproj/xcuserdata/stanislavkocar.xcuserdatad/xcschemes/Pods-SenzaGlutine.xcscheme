@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F962C3B9E09C8F2332B7CD996791E424'
+               BlueprintIdentifier = '27D45E3D52F4AC3A8055FBB215535EC5'
                BlueprintName = 'Pods-SenzaGlutine'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-SenzaGlutine.framework'>

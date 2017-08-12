@@ -18,17 +18,24 @@
     align-self: stretch;
     height: inherit;
     margin: auto 0;
+    z-index: 10;
 }
 
 .font-awesome{
     font-size: 18;
 }
 
+.feed{
+    color: #006f85;
+    font-family: "Lato-Semibold";
+    margin-top: 4%;
+}
 
 
 
 TextView{
     font-family: "Lato-Semibold";
+    margin-top: 1%;
 }
 
 .feedback_wrap{
@@ -50,4 +57,89 @@ TextView{
 }
 .test{
     width: 85%;
+}
+
+first_star{
+    background-color: gold;
+}
+
+.star_wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.star{
+    margin: 0 1%;
+}
+
+.stars{
+    text-align: right
+}
+
+.star_desc,.comments{
+    font-family: "Lato-Black";
+    font-size: 15;
+}
+
+.star_wrap{
+    margin-top: 3.7%;
+}
+
+.comments{
+    margin-top: 8%;
+}
+
+.rest{
+    font-family: "Lato-Light";
+}
+
+#submit{
+    width: 100%;
+    margin-top: 8%;
+}
+
+.login_btn{
+    font-family: "Lato-Black";
+    font-weight: bold;
+}
+
+Button{
+    background-color: #1d5823;
+    margin-top: 8%;
+    width: 90.1%;
+    color: #f3f3f3;
+    height: 10%;
+    font-size: 20;
+  }
+
+  #side_menu{
+    background-color: #f3f3f3;
+     font-family: "Lato-Semibold";
+}
+
+.username{
+    color: #5f1842;
+}
+
+.menu_wrap{
+    background-color: #fcfcfc;
+    width: 90%;
+    margin: 2px auto;
+    padding: 10 0;
+    padding-left: 10;   
+}
+
+.userwrap{
+    width: 90%;
+    padding: 10 0;
+    padding-left: 10;   
+}
+
+.version{
+    color: #5f1842;
+    width: 90%;
+    padding: 10 0;
+    padding-left: 10;
+    font-size: 12px;
 }

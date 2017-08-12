@@ -74,3 +74,33 @@ Page{
     border: 2 solid black;
 }
 
+#side_menu{
+    background-color: #f3f3f3;
+     font-family: "Lato-Semibold";
+}
+
+.username{
+    color: #5f1842;
+}
+
+.menu_wrap{
+    background-color: #fcfcfc;
+    width: 90%;
+    margin: 2px auto;
+    padding: 10 0;
+    padding-left: 10;   
+}
+
+.userwrap{
+    width: 90%;
+    padding: 10 0;
+    padding-left: 10;   
+}
+
+.version{
+    color: #5f1842;
+    width: 90%;
+    padding: 10 0;
+    padding-left: 10;
+    font-size: 12px;
+}
