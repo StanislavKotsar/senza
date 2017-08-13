@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03BC7C44A0DD8215B92B20511FEABCE1 /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A96F0DD162FEB45C367E8A0302166C3 /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18F57873BAE949F334DA9D57D020B121 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC8C280E4F87332307CC43BB321D10 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20909B18A454E0797F343764AD7FCA11 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7090841577136D5AD1B6D138A5601 /* BEMCheckBoxGroup.m */; };
+		03BC7C44A0DD8215B92B20511FEABCE1 /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7E506402C02BCE59AAD82D0E874FE8 /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F57873BAE949F334DA9D57D020B121 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 812D2752EBECF9A7350B4CE8A9D787F4 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20909B18A454E0797F343764AD7FCA11 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD06366C73A1CCF5D6DE67E403503D /* BEMCheckBoxGroup.m */; };
 		240992A4CB35CABBD55DD9358CF420E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3F4B331558094E9EBADCB4BBE25519C0 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E14D697E66493651328E5AFDCAD4DD /* BEMPathManager.m */; };
-		55CF856B8BA12BB2472B08B6D5D9125A /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F078AC02D5EA515C853A7C7A2D58D /* BEMCheckBox.m */; };
+		3F4B331558094E9EBADCB4BBE25519C0 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E06D88DCAE4A981D4A95C3CAA3120E7 /* BEMPathManager.m */; };
+		55CF856B8BA12BB2472B08B6D5D9125A /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4441D72FCD54E74C958906B4838EE1AB /* BEMCheckBox.m */; };
 		650632E47FC53FD0AAFF7B5BCA7BF120 /* Pods-SenzaGlutine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D554D9914850A6C3D63D509BE6727A8C /* Pods-SenzaGlutine-dummy.m */; };
-		67D34CF37EE40AC99BE94603EFD0A2B4 /* HCSStarRatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C795E569B8F2D485E715F7648CD7232F /* HCSStarRatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A6B44636886520707544BC52CCD2ABF /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8500D6DA7760F720534B00026DF35D /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A8BC36CCD3769C0DCEB4213A5019BB7 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E699AADCDD8613E23B7DAEBBE82258 /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A80BA46B97BD1273DAA97821F4DFB963 /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B0BBD96E500A05E29D4B013DDAD3EB /* BEMCheckBox-dummy.m */; };
-		AC08ACC8E35090E01239B8163297A0EA /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC4C6C6FACCA46A612ACB76DCBDE35D /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF5BB6C5CBF58128AE6C9AA5950F2AB1 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDEB85E775C8F620BB7997009D6F3A /* BEMAnimationManager.m */; };
+		67D34CF37EE40AC99BE94603EFD0A2B4 /* HCSStarRatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 512804FD156C5AF65186D6E1789FB0EB /* HCSStarRatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6B44636886520707544BC52CCD2ABF /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DEF855F931981229166D4592B4D73A /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A8BC36CCD3769C0DCEB4213A5019BB7 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C86B749A47924419289132A9C8F060CD /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A80BA46B97BD1273DAA97821F4DFB963 /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AA05C4101A4D802558F98EBDA75275 /* BEMCheckBox-dummy.m */; };
+		AC08ACC8E35090E01239B8163297A0EA /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = C3026A86610C2A77F1EF0400561C97C8 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5BB6C5CBF58128AE6C9AA5950F2AB1 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 973170D2FFD514ABA615D772C348D34F /* BEMAnimationManager.m */; };
 		CC56241CB6E80FCBA4FFD8631611A1C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CEC56FA07B6B2AC76C2793AD2E25483B /* HCSStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668EB198F1745B6A6506B8A28426618 /* HCSStarRatingView-dummy.m */; };
+		CEC56FA07B6B2AC76C2793AD2E25483B /* HCSStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066E6B6BC6F916B7FCC64582C0B3EBEF /* HCSStarRatingView-dummy.m */; };
 		D069A216F881C663FADE7554279608E7 /* Pods-SenzaGlutine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B12E686C0E80F27E822B2FFB1D4612 /* Pods-SenzaGlutine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E456C905FBC55EE412B56D0D175375F9 /* HCSStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DF3AE889D3534C99757027169FA707 /* HCSStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5A493266E718EAC3F68314C59A9F0D7 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC8A2DAB9EE2888C2934E4154500DF /* HCSStarRatingView.m */; };
+		E456C905FBC55EE412B56D0D175375F9 /* HCSStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF66B458B584CAB3EED3121E12D02DDF /* HCSStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A493266E718EAC3F68314C59A9F0D7 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339E08BCC9A0708BACA50459AFE1FEED /* HCSStarRatingView.m */; };
 		FF5448C9373B98358D18337EDBE47DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,42 +46,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0180E2468D1C55FC34F58F9AD49F97E5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		066E6B6BC6F916B7FCC64582C0B3EBEF /* HCSStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCSStarRatingView-dummy.m"; sourceTree = "<group>"; };
 		08D55CD934BF1699F737423D9B23D2DD /* Pods-SenzaGlutine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SenzaGlutine.modulemap"; sourceTree = "<group>"; };
-		0AFC8C280E4F87332307CC43BB321D10 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
-		11DF3AE889D3534C99757027169FA707 /* HCSStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = HCSStarRatingView/HCSStarRatingView.h; sourceTree = "<group>"; };
-		1D8500D6DA7760F720534B00026DF35D /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		0C7E506402C02BCE59AAD82D0E874FE8 /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		0DCD06366C73A1CCF5D6DE67E403503D /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		16CB02B46AEB50587510EF04025D24B0 /* HCSStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-prefix.pch"; sourceTree = "<group>"; };
 		21D06DE6FFBA6BAEFB9287F6A68921CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		228600B5A8C5F4657BEE98866CE41537 /* Pods-SenzaGlutine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenzaGlutine.debug.xcconfig"; sourceTree = "<group>"; };
-		25C4552EA93DF605A50782B111711D6B /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
-		26831B3AB0CD56E7336930DD33F6C7FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		292018DE2435F7137C796B3107380F68 /* HCSStarRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.xcconfig; sourceTree = "<group>"; };
-		3CE7090841577136D5AD1B6D138A5601 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
-		3DEFA321A529A840DCB1F4B64CA17E07 /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
-		47AFDF0488EF9AC806775CE4495397D5 /* HCSStarRatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HCSStarRatingView.modulemap; sourceTree = "<group>"; };
-		49E14D697E66493651328E5AFDCAD4DD /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
-		4B8F078AC02D5EA515C853A7C7A2D58D /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
-		4E2D628109BB074AB7D990841F7364D5 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		29F85AC144CE20611B858293E33E4E63 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		339E08BCC9A0708BACA50459AFE1FEED /* HCSStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = HCSStarRatingView/HCSStarRatingView.m; sourceTree = "<group>"; };
+		3E06D88DCAE4A981D4A95C3CAA3120E7 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		4441D72FCD54E74C958906B4838EE1AB /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		4B563B0DFFAF131EB99D77DAEB54C8CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E9573A64C3139829365FFFD17C42EB4 /* Pods-SenzaGlutine-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SenzaGlutine-resources.sh"; sourceTree = "<group>"; };
+		4F7B109ADBDC92A558AF30993AD09E34 /* HCSStarRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.xcconfig; sourceTree = "<group>"; };
 		50C75593C8D4FDB9B57E79F403E00601 /* HCSStarRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCSStarRatingView.framework; path = HCSStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AEDEB85E775C8F620BB7997009D6F3A /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		512804FD156C5AF65186D6E1789FB0EB /* HCSStarRatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-umbrella.h"; sourceTree = "<group>"; };
+		59AA05C4101A4D802558F98EBDA75275 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		61DB3461C3BF5C87EA164DF49B1B1F22 /* HCSStarRatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HCSStarRatingView.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FC4C6C6FACCA46A612ACB76DCBDE35D /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
-		70B0BBD96E500A05E29D4B013DDAD3EB /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
 		72B12E686C0E80F27E822B2FFB1D4612 /* Pods-SenzaGlutine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SenzaGlutine-umbrella.h"; sourceTree = "<group>"; };
-		75E699AADCDD8613E23B7DAEBBE82258 /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		73D4485B1540F83BFC81D7681FABFED3 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		762BA99BDC09C7D62EF380C4508DB45D /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox.framework; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7668EB198F1745B6A6506B8A28426618 /* HCSStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCSStarRatingView-dummy.m"; sourceTree = "<group>"; };
+		7FA49F71B968FD1E54F22CB52C8C7519 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		812D2752EBECF9A7350B4CE8A9D787F4 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
 		8665C100661826F262E057FF7047CCDD /* Pods-SenzaGlutine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenzaGlutine.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A96F0DD162FEB45C367E8A0302166C3 /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		973170D2FFD514ABA615D772C348D34F /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
 		A5FCFA7FB1FF261EDA1005E6D32ADD40 /* Pods-SenzaGlutine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SenzaGlutine-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFCC8A2DAB9EE2888C2934E4154500DF /* HCSStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = HCSStarRatingView/HCSStarRatingView.m; sourceTree = "<group>"; };
-		C7187036CD3BDE40D357006FB8A6BE56 /* HCSStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-prefix.pch"; sourceTree = "<group>"; };
-		C795E569B8F2D485E715F7648CD7232F /* HCSStarRatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-umbrella.h"; sourceTree = "<group>"; };
+		AF66B458B584CAB3EED3121E12D02DDF /* HCSStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = HCSStarRatingView/HCSStarRatingView.h; sourceTree = "<group>"; };
+		C3026A86610C2A77F1EF0400561C97C8 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		C86B749A47924419289132A9C8F060CD /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		CD9FB94E5A78049DC41CA8663935862D /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		D554D9914850A6C3D63D509BE6727A8C /* Pods-SenzaGlutine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SenzaGlutine-dummy.m"; sourceTree = "<group>"; };
-		F03E6FAC93BB16B827393FDE6D663A52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDA017F58E12D4740AAB3A56BA0EF64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27AB2996B0B5835E99774999A4E120B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		F332FFDDF1837BA95BD3A2C115F68A37 /* Pods_SenzaGlutine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SenzaGlutine.framework; path = "Pods-SenzaGlutine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DEF855F931981229166D4592B4D73A /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
 		FA63216DC679ECF39A1C9A0486E322A2 /* Pods-SenzaGlutine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenzaGlutine-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBF69808032F4138C37A217E8B59CF1F /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
 		FC6515AD3300232294FABA5B416B059B /* Pods-SenzaGlutine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SenzaGlutine-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A5E5D04CB1B206B8D5BD870E581B6A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5D006D9F14BE6F23D8C2CC643D028B40 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0F3DC7260BA669BE7D34E342F708930C /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				26EA1137895E245E74563053F6BDC430 /* Frameworks */,
+				86144DA880AFDF78A7FE70E135AFF910 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		25FE153FA25C48EC047ED72A234DA2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEA40E064716CF2C73F5FBC7667653 /* BEMCheckBox */,
+				5A41F0C5464F65D72208AA765C560AC4 /* GoogleMaps */,
+				93B52C8D145EFEB1D1F83F00E2EA5E25 /* HCSStarRatingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26EA1137895E245E74563053F6BDC430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27AB2996B0B5835E99774999A4E120B /* GoogleMaps.framework */,
+				CD9FB94E5A78049DC41CA8663935862D /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43779E624A21E9611FF42CA5896FBCA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61DB3461C3BF5C87EA164DF49B1B1F22 /* HCSStarRatingView.modulemap */,
+				4F7B109ADBDC92A558AF30993AD09E34 /* HCSStarRatingView.xcconfig */,
+				066E6B6BC6F916B7FCC64582C0B3EBEF /* HCSStarRatingView-dummy.m */,
+				16CB02B46AEB50587510EF04025D24B0 /* HCSStarRatingView-prefix.pch */,
+				512804FD156C5AF65186D6E1789FB0EB /* HCSStarRatingView-umbrella.h */,
+				EFDA017F58E12D4740AAB3A56BA0EF64 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HCSStarRatingView";
+			sourceTree = "<group>";
+		};
 		5640B81CC16171D5F7D7DA5F42BD3958 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,30 +177,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67A4B4439F68BA86E50D62365DFFABBB /* Pods */ = {
+		5A41F0C5464F65D72208AA765C560AC4 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				7584DF2203EB87EAC24B81444E0E8B5F /* BEMCheckBox */,
-				B6259F6F081B02FC49AB56F01656004F /* HCSStarRatingView */,
+				03A5E5D04CB1B206B8D5BD870E581B6A /* Base */,
+				0F3DC7260BA669BE7D34E342F708930C /* Maps */,
 			);
-			name = Pods;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		7584DF2203EB87EAC24B81444E0E8B5F /* BEMCheckBox */ = {
+		5D006D9F14BE6F23D8C2CC643D028B40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AFC8C280E4F87332307CC43BB321D10 /* BEMAnimationManager.h */,
-				5AEDEB85E775C8F620BB7997009D6F3A /* BEMAnimationManager.m */,
-				75E699AADCDD8613E23B7DAEBBE82258 /* BEMCheckBox.h */,
-				4B8F078AC02D5EA515C853A7C7A2D58D /* BEMCheckBox.m */,
-				6FC4C6C6FACCA46A612ACB76DCBDE35D /* BEMCheckBoxGroup.h */,
-				3CE7090841577136D5AD1B6D138A5601 /* BEMCheckBoxGroup.m */,
-				1D8500D6DA7760F720534B00026DF35D /* BEMPathManager.h */,
-				49E14D697E66493651328E5AFDCAD4DD /* BEMPathManager.m */,
-				A88099B54C7B942B8950D34799B3CA11 /* Support Files */,
+				73D4485B1540F83BFC81D7681FABFED3 /* GoogleMapsBase.framework */,
 			);
-			name = BEMCheckBox;
-			path = BEMCheckBox;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -154,24 +200,29 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				67A4B4439F68BA86E50D62365DFFABBB /* Pods */,
+				25FE153FA25C48EC047ED72A234DA2BC /* Pods */,
 				5640B81CC16171D5F7D7DA5F42BD3958 /* Products */,
 				AF497A281CBFDF5F19FA6BC8314E1D47 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A88099B54C7B942B8950D34799B3CA11 /* Support Files */ = {
+		86144DA880AFDF78A7FE70E135AFF910 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				25C4552EA93DF605A50782B111711D6B /* BEMCheckBox.modulemap */,
-				3DEFA321A529A840DCB1F4B64CA17E07 /* BEMCheckBox.xcconfig */,
-				70B0BBD96E500A05E29D4B013DDAD3EB /* BEMCheckBox-dummy.m */,
-				4E2D628109BB074AB7D990841F7364D5 /* BEMCheckBox-prefix.pch */,
-				9A96F0DD162FEB45C367E8A0302166C3 /* BEMCheckBox-umbrella.h */,
-				F03E6FAC93BB16B827393FDE6D663A52 /* Info.plist */,
+				0180E2468D1C55FC34F58F9AD49F97E5 /* GoogleMaps.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BEMCheckBox";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93B52C8D145EFEB1D1F83F00E2EA5E25 /* HCSStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				AF66B458B584CAB3EED3121E12D02DDF /* HCSStarRatingView.h */,
+				339E08BCC9A0708BACA50459AFE1FEED /* HCSStarRatingView.m */,
+				43779E624A21E9611FF42CA5896FBCA2 /* Support Files */,
+			);
+			name = HCSStarRatingView;
+			path = HCSStarRatingView;
 			sourceTree = "<group>";
 		};
 		AF497A281CBFDF5F19FA6BC8314E1D47 /* Targets Support Files */ = {
@@ -182,15 +233,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B6259F6F081B02FC49AB56F01656004F /* HCSStarRatingView */ = {
+		B4810D9494211DA228D6511B84CE62FF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				11DF3AE889D3534C99757027169FA707 /* HCSStarRatingView.h */,
-				AFCC8A2DAB9EE2888C2934E4154500DF /* HCSStarRatingView.m */,
-				C080D1323E52FD535DC8A59FBF5D90A4 /* Support Files */,
+				29F85AC144CE20611B858293E33E4E63 /* BEMCheckBox.modulemap */,
+				FBF69808032F4138C37A217E8B59CF1F /* BEMCheckBox.xcconfig */,
+				59AA05C4101A4D802558F98EBDA75275 /* BEMCheckBox-dummy.m */,
+				7FA49F71B968FD1E54F22CB52C8C7519 /* BEMCheckBox-prefix.pch */,
+				0C7E506402C02BCE59AAD82D0E874FE8 /* BEMCheckBox-umbrella.h */,
+				4B563B0DFFAF131EB99D77DAEB54C8CF /* Info.plist */,
 			);
-			name = HCSStarRatingView;
-			path = HCSStarRatingView;
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -199,20 +253,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C080D1323E52FD535DC8A59FBF5D90A4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				47AFDF0488EF9AC806775CE4495397D5 /* HCSStarRatingView.modulemap */,
-				292018DE2435F7137C796B3107380F68 /* HCSStarRatingView.xcconfig */,
-				7668EB198F1745B6A6506B8A28426618 /* HCSStarRatingView-dummy.m */,
-				C7187036CD3BDE40D357006FB8A6BE56 /* HCSStarRatingView-prefix.pch */,
-				C795E569B8F2D485E715F7648CD7232F /* HCSStarRatingView-umbrella.h */,
-				26831B3AB0CD56E7336930DD33F6C7FE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HCSStarRatingView";
 			sourceTree = "<group>";
 		};
 		C73BC7BCC3D0DE43935EF0C4B9B805FC /* Pods-SenzaGlutine */ = {
@@ -239,6 +279,23 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F7EEA40E064716CF2C73F5FBC7667653 /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				812D2752EBECF9A7350B4CE8A9D787F4 /* BEMAnimationManager.h */,
+				973170D2FFD514ABA615D772C348D34F /* BEMAnimationManager.m */,
+				C86B749A47924419289132A9C8F060CD /* BEMCheckBox.h */,
+				4441D72FCD54E74C958906B4838EE1AB /* BEMCheckBox.m */,
+				C3026A86610C2A77F1EF0400561C97C8 /* BEMCheckBoxGroup.h */,
+				0DCD06366C73A1CCF5D6DE67E403503D /* BEMCheckBoxGroup.m */,
+				F3DEF855F931981229166D4592B4D73A /* BEMPathManager.h */,
+				3E06D88DCAE4A981D4A95C3CAA3120E7 /* BEMPathManager.m */,
+				B4810D9494211DA228D6511B84CE62FF /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,7 +508,7 @@
 		};
 		42E778C0136B5537C07DCBB9414749EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DEFA321A529A840DCB1F4B64CA17E07 /* BEMCheckBox.xcconfig */;
+			baseConfigurationReference = FBF69808032F4138C37A217E8B59CF1F /* BEMCheckBox.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -484,7 +541,7 @@
 		};
 		577B25398204FC05E6A6BC0C5E9C3BDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292018DE2435F7137C796B3107380F68 /* HCSStarRatingView.xcconfig */;
+			baseConfigurationReference = 4F7B109ADBDC92A558AF30993AD09E34 /* HCSStarRatingView.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -517,7 +574,7 @@
 		};
 		9116CB24001673D98E4783E1882369A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DEFA321A529A840DCB1F4B64CA17E07 /* BEMCheckBox.xcconfig */;
+			baseConfigurationReference = FBF69808032F4138C37A217E8B59CF1F /* BEMCheckBox.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
@@ -550,7 +607,7 @@
 		};
 		97DA74AA822E4BDF272252F3BFC5118B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292018DE2435F7137C796B3107380F68 /* HCSStarRatingView.xcconfig */;
+			baseConfigurationReference = 4F7B109ADBDC92A558AF30993AD09E34 /* HCSStarRatingView.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";

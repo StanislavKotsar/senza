@@ -10,6 +10,7 @@
     "nativescript-angular": true,
     "nativescript-cardview": true,
     "nativescript-checkbox": true,
+    "nativescript-google-maps-sdk": true,
     "nativescript-sidedrawer": true,
     "nativescript-star-ratings": true,
     "nativescript-telerik-ui": true,

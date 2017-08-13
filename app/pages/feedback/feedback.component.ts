@@ -8,6 +8,8 @@ import { RadSideDrawer, DrawerTransitionBase, SlideInOnTopTransition } from 'nat
 import { Router } from "@angular/router";
 import { DockLayout } from "ui/layouts/dock-layout";
 import { StarRating } from "nativescript-star-ratings";
+import {registerElement} from "nativescript-angular/element-registry";
+
 @Component({ 
 	selector: 'feedback',
 	templateUrl: 'pages/feedback/feedback.component.html',

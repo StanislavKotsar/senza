@@ -6,7 +6,7 @@ import { View } from "ui/core/view";
 import * as platformModule from "tns-core-modules/platform";
 import { DockLayout } from "ui/layouts/dock-layout";
 import * as listPickerModule from "tns-core-modules/ui/list-picker";
-
+var mapsModule = require("nativescript-google-maps-sdk");
 declare var UIImage: any;
 declare var UIBarMetrics: any;
 declare var controller: any;
@@ -20,6 +20,7 @@ declare var	UIColor: any;
 })
 
 export class Item_pageComponent implements OnInit {
+	@ViewChild("MapView") mapView: ElementRef;
 	@ViewChild("ordertype") ordertype: ElementRef;
 	show: string = 'rewards';
 	starters:[{}];
@@ -99,5 +100,15 @@ export class Item_pageComponent implements OnInit {
 		console.log(this.select++)
 	}
 
+	onMapReady = (event) => {
+        console.log("Map Ready");
+        var map =event.object;
+        var marker = new mapsModule.Marker();
+        marker.position = mapsModule.Position.positionFromLatLng(48.87, 2.35);
+        marker.title = "Sydney";
+        marker.snippet = "Australia";
+        marker.userData = { index : 1};
+        map.addMarker(marker);
+    };
 
 }

@@ -1,15 +1,22 @@
 PODS:
   - BEMCheckBox (1.4.1)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
   - HCSStarRatingView (1.4.5)
 
 DEPENDENCIES:
   - BEMCheckBox (~> 1.4.1)
+  - GoogleMaps
   - HCSStarRatingView (~> 1.4.5)
 
 SPEC CHECKSUMS:
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
   HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
 
-PODFILE CHECKSUM: 54f5d717d977ff179d16129383ece5a6964dbdc1
+PODFILE CHECKSUM: 70714d9c79ba279eb36801c9f5d5ae2282e63bd1
 
 COCOAPODS: 1.2.1

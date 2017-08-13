@@ -81,7 +81,6 @@
                             <Label text="&#xf0d7;" class="font-awesome"></Label>
                         </DockLayout>
                         </StackLayout>
-
                         <StackLayout *ngIf="select === 3">
                             <Label text="ADD TO ORDER"  class="order_picker extras"></Label>
                             <Label text="Pizza Margarita" class="order_name extras"></Label>
@@ -144,6 +143,9 @@
                 </DockLayout>
                 <Label text="Location" class="loc"></Label>
                 <Label text="Viale M. Ceccarini, 192, 47838 Riccione RN, Italy" class="adress"></Label>
+                <GridLayout>
+                    <MapView class="maps" width="100%" zoom="17" latitude="43.9971784" longitude="12.6520116" height="200px" (mapReady)="onMapReady($event)"></MapView>
+                </GridLayout>
             </StackLayout>
         </StackLayout>
     </StackLayout>

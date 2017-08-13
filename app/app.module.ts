@@ -16,8 +16,11 @@ import { ListComponent } from "./pages/list_page/list_page.component";
 import { MyAccountComponent } from "./pages/my_account/my_account.component";
 import { Item_pageComponent } from "./pages/item_page/item_page.component";
 import { FeedbackComponent } from "./pages/feedback/feedback.component";
-
-
+import * as platform from "platform";
+declare var GMSServices: any;
+if (platform.isIOS) { 
+    GMSServices.provideAPIKey("AIzaSyDrS9xrqK9gja8WVR6dZz-YM18eYP6KN_Y");
+  }
 
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
@@ -57,4 +60,8 @@ import { FeedbackComponent } from "./pages/feedback/feedback.component";
 /*
 Pass your application module to the bootstrapModule function located in main.ts to start your app
 */
-export class AppModule { }
+export class AppModule {
+
+
+    
+ }

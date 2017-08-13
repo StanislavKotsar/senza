@@ -3,13 +3,17 @@ Target: x86_64-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox/BEMCheckBox.framework/Headers" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView/HCSStarRatingView.framework/Headers" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/include" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/TKLiveSync/include" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox/BEMCheckBox.framework/Headers" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView/HCSStarRatingView.framework/Headers" "-isystem" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/include" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/TKLiveSync/include" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox/BEMCheckBox.framework/Headers"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView/HCSStarRatingView.framework/Headers"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/local/include"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Library/Frameworks"
 #include "..." search starts here:
@@ -17,6 +21,8 @@ ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platf
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/TKLiveSync/include
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator (framework directory)
+ /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Base/Frameworks (framework directory)
+ /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks (framework directory)
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal (framework directory)
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios (framework directory)
@@ -29,14 +35,18 @@ Target: x86_64-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox/BEMCheckBox.framework/Headers" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView/HCSStarRatingView.framework/Headers" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/include" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/TKLiveSync/include" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox/BEMCheckBox.framework/Headers" "-iquote" "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView/HCSStarRatingView.framework/Headers" "-isystem" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/include" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal" "-I" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/TKLiveSync/include" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox" "-F/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-F/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.7.0
 ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/BEMCheckBox/BEMCheckBox.framework/Headers"
 ignoring nonexistent directory "/Users/stanislavkocar/Library/Developer/Xcode/DerivedData/SenzaGlutine-esedwapnqrlwjlcewirnrhlkqewu/Build/Products/Debug-iphonesimulator/HCSStarRatingView/HCSStarRatingView.framework/Headers"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public"
+ignoring nonexistent directory "/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/Headers/Public/GoogleMaps"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/local/include"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Library/Frameworks"
 #include "..." search starts here:
@@ -44,6 +54,8 @@ ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platf
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal/TKLiveSync/include
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator (framework directory)
+ /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Base/Frameworks (framework directory)
+ /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks (framework directory)
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/internal (framework directory)
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
  /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios (framework directory)
@@ -51,19 +63,25 @@ ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platf
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks (framework directory)
 End of search list.
-In file included from umbrella.h:698:
+In file included from umbrella.h:616:
+In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h:11:
+/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h:388:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) GMSCoordinateBounds *cameraTargetBounds;
+^
+/Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h:388:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:77:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) TKRange * __nonnull zoomRange;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:215:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarMonthPresenterStyle.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) UIColor *popoverColor;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarMonthPresenterStyle.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:229:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsView.h:8:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:43:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
@@ -74,38 +92,38 @@ In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/pla
 @property (nonatomic, nullable) UIColor * separatorColor;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:58:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:253:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataSource.h:12:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:85:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property(nonatomic, nonnull) TKAutoCompleteCoverView *cover;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:85:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:284:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityProperty.h:96:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString *groupName;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityProperty.h:96:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:288:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormEditor.h:83:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic, nullable) id value;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormEditor.h:83:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:311:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) id<TKLayout> layout;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:318:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormAutoCompleteInlineEditor.h:22:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic, nonnull) TKAutoCompleteTextView *autoCompleteView;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormAutoCompleteInlineEditor.h:22:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:698:
+In file included from umbrella.h:740:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:374:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSNumber *row;
@@ -119,13 +137,13 @@ In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/pla
 @property (nonatomic) NSNumber *index;
 ^
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:97:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:732:
+In file included from umbrella.h:774:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/os/log.h:17:2: error: using os/log.h requires Xcode 8 or later
 #error using os/log.h requires Xcode 8 or later
  ^
-In file included from umbrella.h:770:
+In file included from umbrella.h:813:
 In file included from /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/HCSStarRatingView.framework/Headers/HCSStarRatingView-umbrella.h:13:
 /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/platforms/ios/build/emulator/HCSStarRatingView.framework/Headers/HCSStarRatingView.h:23:1: error: use of '@import' when modules are disabled
 @import UIKit;
 ^
-24 warnings and 2 errors generated.
+26 warnings and 2 errors generated.

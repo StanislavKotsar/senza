@@ -10,5 +10,10 @@ target "SenzaGlutine" do
 
 pod 'HCSStarRatingView', '~> 1.4.5' 
  # End Podfile 
+# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
+ source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'GoogleMaps' 
+ # End Podfile 
 
 end

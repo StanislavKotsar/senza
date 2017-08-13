@@ -6,12 +6,14 @@ import { View } from "ui/core/view";
 import * as platformModule from "tns-core-modules/platform";
 import { DockLayout } from "ui/layouts/dock-layout";
 import * as listPickerModule from "tns-core-modules/ui/list-picker";
-
+import {registerElement} from "nativescript-angular/element-registry";
 declare var UIImage: any;
 declare var UIBarMetrics: any;
 declare var controller: any;
 declare var CGSizeMake: any;
 declare var	UIColor: any;
+registerElement("MapView", () => require("nativescript-google-maps-sdk").MapView);
+
 
 @Component({
 	selector: 'item_page',
@@ -21,6 +23,7 @@ declare var	UIColor: any;
 
 export class Item_pageComponent implements OnInit {
 	@ViewChild("ordertype") ordertype: ElementRef;
+	@ViewChild("MapView") mapView: ElementRef;
 	show: string = 'rewards';
 	starters:[{}];
 	main:[{}];
@@ -98,6 +101,10 @@ export class Item_pageComponent implements OnInit {
 		this.select++;
 		console.log(this.select++)
 	}
+
+	onMapReady = (event) => {
+        console.log("Map Ready");
+    };
 
 
 }
