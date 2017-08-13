@@ -9,7 +9,7 @@ import { WrapLayout } from "ui/layouts/wrap-layout";
 import { View } from "ui/core/view";
 import { SideDrawerType, RadSideDrawerComponent } from "nativescript-telerik-ui/sidedrawer/angular";
 import { RadSideDrawer, DrawerTransitionBase, SlideInOnTopTransition } from 'nativescript-telerik-ui/sidedrawer';
-
+import * as platformModule from "tns-core-modules/platform";
 
 
 declare var UIImage: any;
@@ -28,14 +28,18 @@ export class ListComponent implements OnInit{
   data:[{}] = [
     {}
   ];
-
+  height;
+  width;
   private _sideDrawerTransition: DrawerTransitionBase;
   private _drawer: SideDrawerType;
 
   constructor(private page: Page, private frame: Frame,private router: Router, private _changeDetectionRef: ChangeDetectorRef){}
       ngOnInit(){
-  
-    
+        
+
+       this.height = platformModule.screen.mainScreen.heightPixels; 
+       this.width = platformModule.screen.mainScreen.widthPixels;
+       console.log(this.height);  
     this.page.actionBar.navigationButton.visibility = "collapse";
 this.page.actionBarHidden = true;
     if (topmost().ios) {

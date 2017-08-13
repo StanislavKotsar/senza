@@ -39,9 +39,12 @@
     </StackLayout>
   </StackLayout>
   <StackLayout tkMainContent>
-<ScrollView style="margin-top: -30">
+<ScrollView>
     <StackLayout class="content">
-        <Image src="res://logo" horizontalAlignment="center"class="img_bar"></Image>
+            <FlexboxLayout [height]="width*0.3 + 'px'" class="menu_wrap" width="100%">
+                <Label text="&#xf0c9;" (tap)="toggle()" class="font-awesome"></Label>
+            </FlexboxLayout>
+            <Image src="res://logo" horizontalAlignment="center" [marginTop]="-width*0.3 + 'px'" class="img_bar"></Image>
         <Label text="Nearby" class="heavy"></Label>
         <StackLayout height="165" (tap)="nextPage()">
             <Image class="stack_img" stretch="aspectFill" src="res://pizza"></Image>

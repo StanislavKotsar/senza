@@ -321,3 +321,7 @@ CheckBox{
 .maps{
     margin-top: 3%;
 }
+
+.selected{
+    text-decoration:underline;
+}

@@ -1,7 +1,29 @@
 
 .img_bar{
     width: 30%; 
-    
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+.img_wrap{
+    align-self: stretch;
+    height: inherit;
+    margin: auto 0;
+    z-index: 5;
+}
+
+.menu_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    background-color: white !important;
+}
+
+.logo_wrap{
+    width: 100%;
 }
 
 .stack_img{

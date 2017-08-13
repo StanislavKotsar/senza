@@ -7,8 +7,9 @@
   <TextField secure="true" id="tpassword" autocapitalizationType="none"></TextField>
   <Button text="LOG IN" class="login_btn" (tap)="nextPage()"></Button>
   <Button text="REGISTER" class="register_btn"></Button>
-<DockLayout width="85.5%" height="5%">
-    <Label text="FORGOT PASSWORD?" row="0" col="0"  class="continue"></Label>
-    <Label text="CONTINUE WITHOUT LOGIN" row="0" col="1" class="forgot"></Label>
-</DockLayout>
+ 
+      <FlexboxLayout class="wrap2">
+          <Label text="FORGOT PASSWORD?" row="0" col="0"  class="continue"></Label>
+          <Label text="CONTINUE WITHOUT LOGIN" row="0" col="1" class="forgot"></Label>
+      </FlexboxLayout>
 </StackLayout>
