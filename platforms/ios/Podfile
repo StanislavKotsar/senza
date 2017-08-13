@@ -1,19 +1,19 @@
 use_frameworks!
 
-target "SenzaGlutine" do
-# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/node_modules/nativescript-checkbox/platforms/ios/Podfile 
+target "senza" do
+# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/senz/senza/node_modules/nativescript-checkbox/platforms/ios/Podfile 
  pod 'BEMCheckBox', '~> 1.4.1'
  
  # End Podfile 
-# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/node_modules/nativescript-star-ratings/platforms/ios/Podfile 
- use_frameworks!
-
-pod 'HCSStarRatingView', '~> 1.4.5' 
- # End Podfile 
-# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/SenzaGlutine/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
+# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/senz/senza/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
  source 'https://github.com/CocoaPods/Specs.git'
 
 pod 'GoogleMaps' 
+ # End Podfile 
+# Begin Podfile - /Users/stanislavkocar/myApps/nativeScript/senz/senza/node_modules/nativescript-star-ratings/platforms/ios/Podfile 
+ use_frameworks!
+
+pod 'HCSStarRatingView', '~> 1.4.5' 
  # End Podfile 
 
 end
