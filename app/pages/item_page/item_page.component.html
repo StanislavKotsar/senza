@@ -1,6 +1,9 @@
 <ScrollView style="margin-top: -64">
     <ActionBar>
         <NavigationButton></NavigationButton>
+        <ActionItem  ios.position="right">
+            <Label text="&#xf08a;" class="font-awesome heart"></Label>
+        </ActionItem>
     </ActionBar>
     <StackLayout>
         <StackLayout>
@@ -13,12 +16,12 @@
                 <Label text="Na Pizz, Riccone" class="name"></Label>
             </StackLayout>
             </Card:CardView >
-            <WrapLayout class="wrap" id="wrap">
+            <FlexboxLayout class="wrap" id="wrap">
                 <Label text="REWARDS" (tap)="show= 'rewards'" [ngClass]="{selected: show === 'rewards'}"  class="test long"></Label>
                 <Label text="MENU" (tap)="show= 'menu'" [ngClass]="{selected: show === 'menu'}" class="test"></Label>
                 <Label text="BASKET" (tap)="show= 'basket'"  [ngClass]="{selected: show === 'basket'}" class="test"></Label>
                 <Label text="INFO" (tap)="show= 'info'" [ngClass]="{selected: show === 'info'}" class="test"></Label>
-            </WrapLayout>
+            </FlexboxLayout>
             <Card:CardView class="whiteCard" shadowOffsetWidth="0" shadowOffsetHeight="0" shadowRadius="3">
             <StackLayout *ngIf="show === 'rewards'" class="points">
                 <WrapLayout class="points_wrap">

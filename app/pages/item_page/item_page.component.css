@@ -39,18 +39,17 @@ ScrollView{
     margin-top: 23;
     margin-bottom: 28;
     padding: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .test{
-    width: 23%;
     font-size: 14;
     font-weight: 700;
     text-align: center;
 }
 
-.long{
-    width: 31%;
-}
 
 .foo{
     text-align: center;
@@ -324,4 +323,9 @@ CheckBox{
 
 .selected{
     text-decoration:underline;
+}
+
+.heart{
+    color: white;
+    font-size: 25;
 }
