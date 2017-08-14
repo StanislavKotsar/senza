@@ -28,6 +28,7 @@ export class Item_pageComponent implements OnInit {
 	starters:[{}];
 	main:[{}];
 	orederList;
+	whiteCardHeight;
 	screen = {	
 		width:0,
 		height:0,
@@ -50,7 +51,17 @@ export class Item_pageComponent implements OnInit {
 		console.log("Device model: " + this.screen.width);
 		console.log("Device height: " + this.screen.height);
 		console.log("Percent: " + this.screen.heightPercent);
+		if(this.screen.height === 2208) {
+			this.whiteCardHeight = -(this.screen.height * 0.78) +'px';
+		} else if (this.screen.height === 1136){
+			this.whiteCardHeight = -(this.screen.height * 0.86) + 'px';
+		} else if (this.screen.height === 1334){
+			this.whiteCardHeight = -(this.screen.height * 0.84) + 'px';
+		}else{
+			this.whiteCardHeight = -(this.screen.height * 0.86) + 'px';
+		}
 
+		console.log('whiteCardHeight ', this.whiteCardHeight)
 		this.starters = [{ name: 'Pizza Margarita', price: '€2.40', desc: 'Product description goes here', extras:[
 			"Extra cheese", "Extra tomato", "Add bacon", "Add ham", "Add egg"
 		]},

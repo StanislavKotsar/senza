@@ -55,7 +55,7 @@
                     <Label [text]="item.desc"  class="desc"></Label>
                 </StackLayout>
             </StackLayout>
-            <Card:CardView *ngIf="startOrder === true" style="margin-top: -980px" shadowOffsetWidth="0" shadowOffsetHeight="0" shadowRadius="3" class="whiteCard">
+            <Card:CardView *ngIf="startOrder === true" [marginTop]="whiteCardHeight" shadowOffsetWidth="0" shadowOffsetHeight="0" shadowRadius="3" class="whiteCard">
             <FlexboxLayout *ngIf="startOrder === true" [height]="(screen.height * 0.79)+'px'" class="order_container">
                     <StackLayout>
                         <StackLayout *ngIf="select !== 3">
