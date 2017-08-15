@@ -43,14 +43,9 @@ export class Item_pageComponent implements OnInit {
 	ngOnInit() {
 		
 		this.orederList = ["Order for collection", "Order at table", "Order for delivery"];
-		console.log(this.page.getViewById("wrap"));
-		console.log("Device model: " + platformModule.screen.mainScreen.widthPixels);
 		this.screen.width = platformModule.screen.mainScreen.widthPixels;
 		this.screen.height = platformModule.screen.mainScreen.heightPixels;
 		this.screen.heightPercent = (platformModule.screen.mainScreen.heightPixels/100).toFixed(1);
-		console.log("Device model: " + this.screen.width);
-		console.log("Device height: " + this.screen.height);
-		console.log("Percent: " + this.screen.heightPercent);
 		if(this.screen.height === 2208) {
 			this.whiteCardHeight = -(this.screen.height * 0.78) +'px';
 		} else if (this.screen.height === 1136){

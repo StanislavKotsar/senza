@@ -20,10 +20,12 @@ Button{
   color: #f3f3f3;
   height: 8.6%;
   font-weight: 700;
+  font-family: "Lato-Black";
+  font-size: 20;
 }
 
 .email_label{
-  margin-top: 8.1%;
+  margin-top: 9%;
 }
 
 .password_label{
@@ -31,7 +33,7 @@ Button{
 }
 
 .login_btn{
-  margin-top: 12.1%;
+  margin-top: 10%;
 }
 
 .register_btn{
@@ -56,7 +58,6 @@ Button{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   width: 85%;
-
+  margin-top: 5%;
 }

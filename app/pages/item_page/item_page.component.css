@@ -77,9 +77,9 @@ ScrollView{
 
 .points_sign{
     text-align: center;
-     transform: rotate(-7.2deg);
-     font-size: 23;
-     margin-left: 10;
+     transform: rotate(-6.8deg);
+     font-size: 21;
+     margin-left: 16;
      margin-top: -7;
 }
 
